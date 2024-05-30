@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SignUpController {
     @GetMapping("/KPIEdu/SignUp")
     public String Signup(){
-        return "Signup";
+        return "FixSignup";
     }
 }

@@ -50,7 +50,7 @@
                       src="/images/Plan/iconlyboldhome.svg"
                     />
 
-                    <a class="home1">Home</a>
+                    <a class="home1" id ="ToHome">Home</a>
                   </div>
                 </div>
                 <div class="rectangle-parent">
@@ -349,11 +349,18 @@
           // Please sync "Calendar" to the project
         });
       }
+
+      var ToHomeText = document.getElementById("ToHome");
+      if (ToHomeText) {
+        ToHomeText.addEventListener("click", function (e) {
+           window.location.href = "/KPIEdu/Home";
+        });
+      }
       
       var activityHistoryText = document.getElementById("activityHistoryText");
       if (activityHistoryText) {
         activityHistoryText.addEventListener("click", function (e) {
-          // Please sync "Activities" to the project
+          window.location.href = "/KPIEdu/History";
         });
       }
       
@@ -388,7 +395,7 @@
       var signOutText = document.getElementById("signOutText");
       if (signOutText) {
         signOutText.addEventListener("click", function (e) {
-          // Please sync "Login" to the project
+          window.location.href = "/KPIEdu/Login";
         });
       }
       
