@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-sans-serif-desktop-default-body-xs-default: "DM Sans";
+  --body-sans-serif-desktop-default-body-s-default: "Roboto Flex";
+  --font-inter: Inter;
+  --font-open-sans: "Open Sans";
+  --font-ubuntu: Ubuntu;
+
+  /* font sizes */
+  --body-sans-serif-desktop-default-body-xs-default-size: 12px;
+  --body-sans-serif-desktop-default-body-s-default-size: 14px;
+  --body-sans-serif-desktop-default-body-m-default-size: 16px;
+  --heading-sans-serif-desktop-default-heading-l-default-size: 28px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-aliceblue-100: #f0f7ff;
+  --accent-on-accent: #e9f4fa;
+  --surface-primary-surface-0: #fff;
+  --theme-colors-border-2: #e5e5e5;
+  --color-gray-100: #8a8a8a;
+  --theme-colors-text-hint: #808080;
+  --component-specific-button-primary: #121f24;
+  --theme-colors-icon-inverse: #0a0a0a;
+  --interactive-colors-focus-secondary: rgba(26, 26, 26, 0.05);
+  --theme-colors-border-11: rgba(255, 255, 255, 0.05);
+  --gray-100: #f4f4f5;
+  --theme-colors-text-1: #f4f4f4;
+  --theme-colors-text-inverse: #ededed;
+  --theme-colors-text-error: #f9634c;
+  --interactive-colors-focus-primary: rgba(122, 161, 0, 0.15);
+  --theme-colors-text-placeholder: #6e6e6e;
+  --theme-colors-text-2: #4e4e4e;
+  --system-colors-success-1: #1aad63;
+  --accent-accent: #068ac2;
+  --color-royalblue: #0077ff;
+
+  /* Spacing */
+  --spacing-spacing-3xl: 24px;
+  --radius-md: 24px;
+  --container-container-padding: 24px;
+  --container-container-padding-sm: 16px;
+  --radius-sm: 16px;
+  --radius-xs: 12px;
+  --spacing-spacing-sm: 6px;
+  --widths-width-md: 560px;
+  --spacing-spacing-xl: 16px;
+  --spacing-spacing-lg: 12px;
+  --radius-full: 640px;
+  --spacing-spacing-md: 8px;
+  --spacing-spacing-4xl: 32px;
+  --radius-2xl: 48px;
+  --spacing-spacing-xs: 4px;
+  --boundvariablesdata: 32px;
+  --boundvariablesdata1: 24px;
+  --widths-width-lg: 640px;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-lg: 18px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-11xs: 2px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-7xs: 6px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-3xl: 22px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-7xs: 6px;
+  --padding-2xs: 11px;
+  --padding-6xs: 7px;
+  --padding-11xs: 2px;
+  --padding-sm: 14px;
+  --padding-12xs: 1px;
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
+  --padding-mini: 15px;
+  --padding-5xs-5: 7.5px;
+  --padding-xs: 12px;
+  --padding-13xl: 32px;
+  --padding-9xs: 4px;
+  --padding-18xl: 37px;
+
+  /* Border radiuses */
+  --br-5xl: 24px;
+  --br-base: 16px;
+  --br-xs: 12px;
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+  --br-621xl: 640px;
+  --br-181xl: 200px;
+  --br-29xl: 48px;
+  --br-31xl: 50px;
+  --br-11xl: 30px;
+
+  /* Effects */
+  --md: 0px 4px 8px -2px rgba(0, 0, 0, 0.3),
+    0px 2px 4px -2px rgba(0, 0, 0, 0.06);
+}

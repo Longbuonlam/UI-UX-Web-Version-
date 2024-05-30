@@ -374,7 +374,7 @@
                                 src="/images/Message/-avatar-item@2x.png"
                               />
                             </div>
-                            <div class="s-o-i-c-t-details" onclick="TextToSOICT()">
+                            <div class="s-o-i-c-t-details" id="TextToSOICT" style="cursor:pointer;">
                               <b class="soict">SOICT</b>
                               <p class="hi-soict-im-container">
                                 <span class="hi-soict-im"
@@ -504,6 +504,13 @@
       if (toCalendarText) {
         toCalendarText.addEventListener("click", function (e) {
           window.location.href = "/KPIEdu/Calendar";
+        });
+      }
+
+      var TextToSoictText = document.getElementById("TextToSOICT");
+      if (TextToSoictText) {
+        TextToSoictText.addEventListener("click", function (e) {
+           window.location.href = "/KPIEdu/Message/Soict";
         });
       }
       </script>
