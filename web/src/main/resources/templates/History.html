@@ -31,7 +31,7 @@
                     src="/images/History/iconlyboldhome.svg"
                   />
 
-                  <a class="home1" id ="ToHome">Home</a>
+                  <a class="home1" id ="ToHome" style="cursor:pointer;">Home</a>
                 </div>
               </div>
               <div class="home-divider"></div>
@@ -313,12 +313,13 @@
           </div>
         </section>
       </main>
-      <div class="component-15-wrapper">
+      <div class="component-15-wrapper" id="ToCalendar">
         <img
           class="component-15-icon"
           loading="lazy"
           alt=""
           src="/images/History/component-15.svg"
+          style="cursor:pointer;"
         />
       </div>
     </div>
@@ -337,7 +338,14 @@
            window.location.href = "/KPIEdu/Home";
         });
       }
-      
+
+      var ToCalendarText = document.getElementById("ToCalendar");
+      if (ToCalendarText) {
+        ToCalendarText.addEventListener("click", function (e) {
+           window.location.href = "/KPIEdu/History/Calendar";
+        });
+      }
+
       var documentsContainer = document.getElementById("documentsContainer");
       if (documentsContainer) {
         documentsContainer.addEventListener("click", function (e) {
