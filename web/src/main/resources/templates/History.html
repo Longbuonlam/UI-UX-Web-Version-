@@ -73,7 +73,7 @@
                   src="/images/History/group.svg"
                 />
               </div>
-              <a class="calendar">Calendar</a>
+              <a class="calendar" id ="toCalendarText">Calendar</a>
             </div>
             <div class="bookmarks" id="bookmarksContainer">
               <div class="material-symbolshistory"></div>
@@ -413,6 +413,13 @@
       if (documentsContainer1) {
         documentsContainer1.addEventListener("click", function (e) {
           // Please sync "Calendar" to the project
+        });
+      }
+
+      var toCalendarText = document.getElementById("toCalendarText");
+      if (toCalendarText) {
+        toCalendarText.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Calendar";
         });
       }
       </script>

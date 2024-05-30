@@ -118,7 +118,7 @@
                     <div class="dropdown-icons">
                       <img class="group-icon" alt="" src="/images/Message/group.svg" />
                     </div>
-                    <b class="calendar">Calendar</b>
+                    <b class="calendar" id ="toCalendarText">Calendar</b>
                   </div>
                 </div>
                 <div class="bookmarks-button-wrapper">
@@ -450,7 +450,7 @@
           // Please sync "KPI Completion Progress" to the project
         });
       }
-      
+
       var documentsContainer = document.getElementById("documentsContainer");
       if (documentsContainer) {
         documentsContainer.addEventListener("click", function (e) {
@@ -497,6 +497,13 @@
       if (mayowaContainer) {
         mayowaContainer.addEventListener("click", function (e) {
           // Please sync "Messages" to the project
+        });
+      }
+
+      var toCalendarText = document.getElementById("toCalendarText");
+      if (toCalendarText) {
+        toCalendarText.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Calendar";
         });
       }
       </script>

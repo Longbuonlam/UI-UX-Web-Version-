@@ -91,7 +91,7 @@
                     <div class="group-wrapper">
                       <img class="group-icon" alt="" src="/images/Plan/group.svg" />
                     </div>
-                    <b class="calendar">Calendar</b>
+                    <b class="calendar" id="toCalendarText">Calendar</b>
                   </div>
                 </div>
                 <div class="frame-container">
@@ -417,6 +417,13 @@
       if (cOCOBoldAddIcon) {
         cOCOBoldAddIcon.addEventListener("click", function (e) {
           // Please sync "KPI Completion Progress" to the project
+        });
+      }
+
+      var toCalendarText = document.getElementById("toCalendarText");
+      if (toCalendarText) {
+        toCalendarText.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Calendar";
         });
       }
       </script>
