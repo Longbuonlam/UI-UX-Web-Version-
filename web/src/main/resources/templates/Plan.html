@@ -187,7 +187,7 @@
                 <div class="completion-progress-inner">
                   <div class="plan-processing-parent">
                     <h2 class="plan-processing">Plan Processing</h2>
-                    <div class="cocoboldadd-wrapper">
+                    <div class="cocoboldadd-wrapper" id ="CreatePlan" style="cursor:pointer;">
                       <img
                         class="cocoboldadd-icon"
                         loading="lazy"
@@ -350,6 +350,13 @@
         });
       }
 
+      var CreatePlan = document.getElementById("CreatePlan");
+      if (CreatePlan) {
+        CreatePlan.addEventListener("click", function (e) {
+           window.location.href = "/KPIEdu/Plan/Create";
+        });
+      }
+
       var ToHomeText = document.getElementById("ToHome");
       if (ToHomeText) {
         ToHomeText.addEventListener("click", function (e) {
@@ -381,7 +388,7 @@
       var settingsText = document.getElementById("settingsText");
       if (settingsText) {
         settingsText.addEventListener("click", function (e) {
-          // Please sync "Setting" to the project
+          window.location.href = "/KPIEdu/Setting";
         });
       }
       
