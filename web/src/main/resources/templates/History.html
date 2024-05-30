@@ -130,7 +130,7 @@
                 src="/images/History/carbonsummarykpi.svg"
               />
 
-              <b class="kpi1">KPI</b>
+              <b class="kpi1" id ="ToKPI">KPI</b>
             </div>
             <div class="documents-divider"></div>
           </div>
@@ -332,6 +332,13 @@
         });
       }
 
+      var ToKPIText = document.getElementById("ToKPI");
+      if (ToKPIText) {
+        ToKPIText.addEventListener("click", function (e) {
+           window.location.href = "/KPIEdu/KPI";
+        });
+      }
+
       var ToHomeText = document.getElementById("ToHome");
       if (ToHomeText) {
         ToHomeText.addEventListener("click", function (e) {
@@ -370,7 +377,7 @@
       var messagesText = document.getElementById("messagesText");
       if (messagesText) {
         messagesText.addEventListener("click", function (e) {
-          // Please sync "Messages" to the project
+          window.location.href = "/KPIEdu/Message";
         });
       }
       
