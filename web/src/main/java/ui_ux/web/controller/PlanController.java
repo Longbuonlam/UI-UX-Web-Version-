@@ -9,4 +9,9 @@ public class PlanController {
     public String CreatePlan(){
         return "CreatePlan";
     }
+
+    @GetMapping("/KPIEdu/Plan/Calendar")
+    public String ViewCalendar(){
+        return "PlanCalendar";
+    }
 }

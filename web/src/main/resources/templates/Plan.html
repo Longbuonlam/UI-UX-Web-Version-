@@ -327,11 +327,12 @@
           </div>
         </section>
       </main>
-      <img
+      <img id="ToCalendar"
         class="component-7-icon"
         loading="lazy"
         alt=""
         src="/images/Plan/component-7.svg"
+           style="cursor:pointer;"
       />
     </div>
 
@@ -420,10 +421,10 @@
         });
       }
 
-      var toCalendarText = document.getElementById("toCalendarText");
+      var toCalendarText = document.getElementById("ToCalendar");
       if (toCalendarText) {
         toCalendarText.addEventListener("click", function (e) {
-          window.location.href = "/KPIEdu/Calendar";
+          window.location.href = "/KPIEdu/Plan/Calendar";
         });
       }
       </script>

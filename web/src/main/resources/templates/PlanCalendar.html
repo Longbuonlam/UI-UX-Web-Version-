@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/css/plancalendarglobal.css" />
+    <link rel="stylesheet" href="/css/plancalendarindex.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="kpi-completion-progress">
+      <div class="kpi-completion-progress-child"></div>
+      <div class="left-bar-plan">
+        <div class="left-bar-plan-rect"></div>
+        <div class="logo-wrapper">
+          <div class="logo">
+            <img
+              class="logo-child"
+              loading="lazy"
+              alt=""
+              src="/images/PlanCalendar/group-1.svg"
+            />
+
+            <div class="kpi-edu-wrapper">
+              <a class="kpi-edu">
+                <span>KPI</span>
+                <span class="edu"> Edu</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar">
+          <div class="home-parent">
+            <div class="home">
+              <div class="home-inner">
+                <div class="iconlyboldhome-parent">
+                  <img
+                    class="iconlyboldhome"
+                    loading="lazy"
+                    alt=""
+                    src="/images/PlanCalendar/iconlyboldhome.svg"
+                  />
+
+                  <a class="home1">Home</a>
+                </div>
+              </div>
+              <div class="user-rect-parent">
+                <div class="user-rect"></div>
+                <div class="iconlylight-outline3-user-wrapper">
+                  <img
+                    class="iconlylight-outline3-user"
+                    loading="lazy"
+                    alt=""
+                    src="/images/PlanCalendar/iconlylight-outline3-user.svg"
+                  />
+                </div>
+              </div>
+              <div class="classes-rect"></div>
+            </div>
+            <div class="classes">
+              <div class="classes-wrapper" id="groupContainer">
+                <div class="classes1">
+                  <b class="kpi">Plan</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side-bar-items-wrapper">
+            <div class="side-bar-items">
+              <div class="documents" id="documentsContainer">
+                <img
+                  class="carbonsummary-kpi-icon"
+                  loading="lazy"
+                  alt=""
+                  src="/images/PlanCalendar/carbonsummarykpi.svg"
+                />
+
+                <b class="kpi1">KPI</b>
+              </div>
+              <div class="sign-out-item">
+                <div class="documents1" id="documentsContainer">
+                  <div class="group-wrapper">
+                    <img class="group-icon" alt="" src="/images/PlanCalendar/group.svg" />
+                  </div>
+                  <b class="calendar">Calendar</b>
+                </div>
+              </div>
+              <div class="side-bar-items-inner">
+                <div class="bookmarks-parent">
+                  <div class="bookmarks" id="bookmarksContainer">
+                    <div class="material-symbolshistory"></div>
+                    <b class="history" id="historyText">History</b>
+                    <img
+                      class="vector-icon"
+                      loading="lazy"
+                      alt=""
+                      src="/images/PlanCalendar/vector.svg"
+                    />
+                  </div>
+                  <div class="iconlylight-outlinechat-parent">
+                    <img
+                      class="iconlylight-outlinechat"
+                      loading="lazy"
+                      alt=""
+                      src="/images/PlanCalendar/iconlylight-outlinechat.svg"
+                    />
+
+                    <b class="messages" id="messagesText">Messages</b>
+                  </div>
+                </div>
+              </div>
+              <div class="settings-wrapper">
+                <div class="settings" id="settingsContainer">
+                  <div class="iconlylight-outlinesetting-wrapper">
+                    <img
+                      class="iconlylight-outlinesetting"
+                      loading="lazy"
+                      alt=""
+                      src="/images/PlanCalendar/iconlylight-outlinesetting.svg"
+                    />
+                  </div>
+                  <b class="settings1" id="settingsText">Settings</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sign-out-wrapper">
+          <div class="sign-out">
+            <div class="iconlylight-outlinelogout-wrapper">
+              <img
+                class="iconlylight-outlinelogout"
+                loading="lazy"
+                alt=""
+                src="/images/PlanCalendar/iconlylight-outlinelogout@2x.png"
+              />
+            </div>
+            <b class="sign-out1" id="signOutText">Sign Out</b>
+          </div>
+        </div>
+      </div>
+      <div class="kpi-completion-progress-inner">
+        <div class="frame-parent">
+          <div class="search-parent">
+            <div class="search">
+              <div class="search-child"></div>
+              <img
+                class="iconlylight-outlinesearch"
+                alt=""
+                src="/images/PlanCalendar/iconlylight-outlinesearch.svg"
+              />
+
+              <div class="search-task-documents-activi-wrapper">
+                <div class="search-task-documents">
+                  Search Task, Documents, Activities...
+                </div>
+              </div>
+            </div>
+            <div class="toggle-wrapper">
+              <img
+                class="toggle-icon"
+                loading="lazy"
+                alt=""
+                src="/images/PlanCalendar/toggle.svg"
+              />
+            </div>
+          </div>
+          <div class="completion-progress-wrapper">
+            <div class="completion-progress">
+              <img
+                class="completion-progress-child"
+                alt=""
+                src="/images/PlanCalendar/rectangle-13.svg"
+              />
+
+              <div class="completion-progress-inner">
+                <div class="plan-processing-parent">
+                  <h2 class="plan-processing">Plan Processing</h2>
+                  <div class="scroll-bar">
+                    <img
+                      class="cocoboldadd-icon"
+                      loading="lazy"
+                      alt=""
+                      src="/images/PlanCalendar/cocoboldadd.svg"
+                      id="cOCOBoldAddIcon"
+                    />
+                  </div>
+                  <div class="uilimport-wrapper">
+                    <img
+                      class="uilimport-icon"
+                      alt=""
+                      src="/images/PlanCalendar/uilimport.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="frame-group">
+                <div class="frame-container">
+                  <div class="frame-wrapper">
+                    <div class="frame-div">
+                      <div class="sales-website-design-parent">
+                        <b class="sales-website-design">Sales website design</b>
+                        <div class="frame-parent1">
+                          <div class="plan-1-parent">
+                            <b class="plan-1">Plan 1</b>
+                            <b class="view">View</b>
+                          </div>
+                          <div class="wed-may-8-2359-thu-may-30-wrapper">
+                            <b class="wed-may-8-container">
+                              <p class="wed-may-8">
+                                10:00 Wed May 8 - 23:59 Thu May 30
+                              </p>
+                              <p class="p"></p>
+                            </b>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="graduation-thesis-parent">
+                        <b class="graduation-thesis">Graduation thesis</b>
+                        <div class="frame-parent2">
+                          <div class="plan-2-parent">
+                            <b class="plan-2">Plan 2</b>
+                            <b class="view1">View</b>
+                          </div>
+                          <div class="mon-april-8-2359-sat-april-wrapper">
+                            <b class="mon-april-8-container">
+                              <p class="mon-april-8">
+                                13:00 Mon April 8 - 23:59 Sat April 27
+                              </p>
+                              <p class="p1"></p>
+                            </b>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="build-a-pet-management-system-parent">
+                        <b class="build-a-pet">Build a pet management system</b>
+                        <div class="frame-parent3">
+                          <div class="plan-3-parent">
+                            <b class="plan-3">Plan 3</b>
+                            <b class="view2">View</b>
+                          </div>
+                          <div class="tue-june-18-2359-thu-may-30-wrapper">
+                            <b class="tue-june-18-container">
+                              <p class="tue-june-18">
+                                18:00 Tue June 18 - 23:59 Thu May 30
+                              </p>
+                              <p class="p2"></p>
+                              <p class="p3"></p>
+                            </b>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="kpi-website-design-parent">
+                        <b class="kpi-website-design">KPI website design </b>
+                        <div class="plan-4-parent">
+                          <b class="plan-4">Plan 4</b>
+                          <div class="sun-march-9-2359-thu-march-wrapper">
+                            <b class="sun-march-9"
+                              >09:00 Sun March 9 - 23:59 Thu March 28</b
+                            >
+                          </div>
+                        </div>
+                        <b class="view3">View</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="frame-parent4">
+                    <div class="group-div">
+                      <img
+                        class="frame-child"
+                        loading="lazy"
+                        alt=""
+                        src="/images/PlanCalendar/group-19.svg"
+                      />
+
+                      <b class="b">50%</b>
+                    </div>
+                    <div class="frame-parent5">
+                      <img
+                        class="frame-item"
+                        loading="lazy"
+                        alt=""
+                        src="/images/PlanCalendar/group-19-1.svg"
+                      />
+
+                      <b class="b1">91%</b>
+                    </div>
+                    <div class="frame-parent6">
+                      <img
+                        class="frame-inner"
+                        loading="lazy"
+                        alt=""
+                        src="/images/PlanCalendar/group-19-2.svg"
+                      />
+
+                      <b class="b2">25%</b>
+                    </div>
+                    <div class="frame-parent7">
+                      <img
+                        class="frame-child1"
+                        loading="lazy"
+                        alt=""
+                        src="/images/PlanCalendar/group-19-3.svg"
+                      />
+
+                      <b class="b3">97%</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-wrapper">
+                  <div class="scroll">
+                    <div class="scroll-child"></div>
+                    <div class="scroll-bar-rect"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-parent8">
+        <div class="right-sidebar-rect-wrapper">
+          <div class="right-sidebar-rect"></div>
+        </div>
+        <div class="instance-wrapper">
+          <div class="frame-parent9">
+            <div class="iconlylight-outlinenotificat-wrapper">
+              <img
+                class="iconlylight-outlinenotificat"
+                loading="lazy"
+                alt=""
+                src="/images/PlanCalendar/iconlylight-outlinenotification.svg"
+              />
+            </div>
+            <div class="material-symbolshelp-outline-wrapper">
+              <img
+                class="material-symbolshelp-outline-icon"
+                loading="lazy"
+                alt=""
+                src="/images/PlanCalendar/materialsymbolshelpoutline.svg"
+              />
+            </div>
+            <div class="component-3profile">
+              <div class="profile-rect"></div>
+              <div class="allura-avatar-parent">
+                <img
+                  class="allura-avatar-icon"
+                  alt=""
+                  src="/images/PlanCalendar/allura-avatar@2x.png"
+                />
+
+                <div class="soict-wrapper">
+                  <a class="soict">SOICT</a>
+                </div>
+              </div>
+              <div class="icon-chevron-left-wrapper">
+                <img
+                  class="icon-chevron-left"
+                  alt=""
+                  src="/images/PlanCalendar/icon--chevron-left@2x.png"
+                />
+              </div>
+            </div>
+            <img
+              class="component-3mingcutearow-to-r-icon"
+              loading="lazy"
+              alt=""
+              src="/images/PlanCalendar/component-3mingcutearowtorightline.svg"
+              id="component3mingcutearowToR"
+            />
+          </div>
+        </div>
+        <div class="frame-wrapper1">
+          <div class="calendar-wrapper">
+            <div class="calendar1">
+              <div class="calendar-inner">
+                <div class="my-calendar-parent">
+                  <a class="my-calendar">My Calendar</a>
+                  <div class="month-selector-wrapper">
+                    <div class="month-selector">
+                      <div class="july-2024-parent">
+                        <b class="july-2024">JULY 2024</b>
+                        <div class="vector-2-stroke-wrapper">
+                          <img
+                            class="vector-2-stroke"
+                            alt=""
+                            src="/images/PlanCalendar/vector-2-stroke.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="calendar-events">
+                <div class="weekdays-weeks">
+                  <div class="weekdays">
+                    <div class="mo">Mo</div>
+                    <div class="tu">Tu</div>
+                    <div class="we">We</div>
+                    <div class="th">Th</div>
+                    <div class="fr">Fr</div>
+                    <div class="sa">Sa</div>
+                    <div class="su">Su</div>
+                  </div>
+                  <div class="frame-parent10">
+                    <div class="week-01-wrapper">
+                      <div class="week-01">
+                        <div class="div">1</div>
+                        <div class="div1">2</div>
+                        <div class="div2">3</div>
+                        <div class="week-one-day-wrapper">
+                          <div class="week-one-day">1</div>
+                        </div>
+                        <div class="week-one-days">2</div>
+                        <div class="wrapper">
+                          <div class="div3">3</div>
+                        </div>
+                        <div class="week-one-days1">4</div>
+                      </div>
+                    </div>
+                    <div class="frame-wrapper2">
+                      <div class="week-02-parent">
+                        <div class="week-02">
+                          <div class="week-two-day-content-wrapper">
+                            <div class="week-two-day">5</div>
+                          </div>
+                          <div class="container">
+                            <div class="div4">6</div>
+                          </div>
+                          <div class="frame">
+                            <div class="div5">7</div>
+                          </div>
+                          <img class="current-day-icon" alt="" />
+
+                          <div class="wrapper1">
+                            <div class="div6">8</div>
+                          </div>
+                          <div class="week-two-day1" id="text31">9</div>
+                          <div class="week-two-day2">10</div>
+                          <div class="week-two-day3">11</div>
+                        </div>
+                        <div class="current-day-background"></div>
+                      </div>
+                    </div>
+                    <div class="week-03">
+                      <div class="week-three-day-wrapper">
+                        <div class="week-three-day">12</div>
+                      </div>
+                      <div class="wrapper2">
+                        <div class="div7">13</div>
+                      </div>
+                      <div class="wrapper3">
+                        <div class="div8">14</div>
+                      </div>
+                      <div class="week-three-days">15</div>
+                      <div class="week-three-days1">16</div>
+                      <div class="wrapper4">
+                        <div class="div9">17</div>
+                      </div>
+                      <div class="week-three-days2">18</div>
+                    </div>
+                  </div>
+                  <div class="week-04">
+                    <div class="week-four-day-wrapper">
+                      <div class="week-four-day">19</div>
+                    </div>
+                    <div class="wrapper5">
+                      <div class="div10">20</div>
+                    </div>
+                    <div class="wrapper6">
+                      <div class="div11">21</div>
+                    </div>
+                    <div class="week-four-days">22</div>
+                    <div class="week-four-days1">23</div>
+                    <div class="wrapper7">
+                      <div class="div12">24</div>
+                    </div>
+                    <div class="week-four-days2">25</div>
+                  </div>
+                  <div class="week-05-wrapper">
+                    <div class="week-05">
+                      <div class="week-five-day-wrapper">
+                        <div class="week-five-day">26</div>
+                      </div>
+                      <div class="wrapper8">
+                        <div class="div13">27</div>
+                      </div>
+                      <div class="wrapper9">
+                        <div class="div14">28</div>
+                      </div>
+                      <div class="week-five-days">29</div>
+                      <div class="week-five-days1">30</div>
+                      <div class="week-five-days2">31</div>
+                      <b class="b4">30</b>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="calendar-events-child"
+                  loading="lazy"
+                  alt=""
+                  src="/images/PlanCalendar/ellipse-56.svg"
+                />
+
+                <div class="event-indicators"></div>
+                <div class="event-indicators1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-wrapper3">
+          <div class="frame-parent11">
+            <div class="frame-wrapper4">
+              <div class="this-week-parent">
+                <b class="this-week">This Week</b>
+                <b class="see-all" id="seeAllText">See all</b>
+              </div>
+            </div>
+            <div class="frame-parent12">
+              <div class="checkbox-wrapper">
+                <div class="checkbox"></div>
+              </div>
+              <div class="fix-design">Fix Design</div>
+              <div class="sales-website-design-wrapper">
+                <div class="sales-website-design1">Sales website design</div>
+              </div>
+              <div class="column-header">
+                <div class="april-8-2024">May 9, 2024 6:00 - 7:00</div>
+              </div>
+            </div>
+            <div class="frame-wrapper5">
+              <div class="frame-parent13">
+                <div class="checkbox-container">
+                  <div class="checkbox1"></div>
+                </div>
+                <div class="task-2">
+                  <p class="task-21">Task 2</p>
+                </div>
+                <div class="sales-website-design2">Sales website design</div>
+                <div class="column-header1">
+                  <div class="april-8-20241">May 9, 2024 14:00 - 17:00</div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-parent14">
+              <div class="frame-parent15">
+                <div class="checkbox-frame">
+                  <div class="checkbox2"></div>
+                </div>
+                <div class="task-3">Task 3</div>
+                <div class="sales-website-design3">Sales website design</div>
+                <div class="column-header2">
+                  <div class="april-8-20242">May 8, 2024 13:00 - 16:00</div>
+                </div>
+                <img class="line-icon" alt="" src="/images/PlanCalendar/line-11.svg" />
+
+                <div class="scroll1">
+                  <div class="rectangle-parent">
+                    <div class="rectangle-div"></div>
+                    <div class="frame-child2"></div>
+                  </div>
+                  <div class="scroll-item"></div>
+                </div>
+              </div>
+              <div class="frame-parent16">
+                <div class="checkbox-wrapper1">
+                  <div class="checkbox3"></div>
+                </div>
+                <div class="code-html">Code HTML</div>
+                <div class="kpi-website-design1">KPI website design</div>
+                <div class="column-header3">
+                  <div class="april-8-20243">May 8, 2024 5:00 - 6:00</div>
+                </div>
+              </div>
+              <div class="frame-parent17">
+                <div class="checkbox-wrapper2">
+                  <div class="checkbox4"></div>
+                </div>
+                <div class="code-react">Code React</div>
+                <div class="kpi-website-design2">KPI website design</div>
+                <div class="column-header4">
+                  <div class="april-8-20244">May 7, 2024 15:00 - 66:00</div>
+                </div>
+              </div>
+              <div class="frame-parent18">
+                <div class="checkbox-wrapper3">
+                  <div class="checkbox5"></div>
+                </div>
+                <div class="up-web">Up Web</div>
+                <div class="kpi-website-design3">KPI website design</div>
+                <div class="column-header5">
+                  <div class="april-8-20245">May 7, 2024 5:00 - 6:00</div>
+                </div>
+              </div>
+              <div class="frame-parent19">
+                <div class="checkbox-wrapper4">
+                  <div class="checkbox6"></div>
+                </div>
+                <div class="survey">Survey</div>
+                <div class="sales-website-design4">Sales website design</div>
+                <div class="column-header6">
+                  <div class="april-8-20246">May 6, 2024 5:00 - 6:00</div>
+                </div>
+              </div>
+              <div class="frame-parent20">
+                <div class="checkbox-wrapper5">
+                  <div class="checkbox7"></div>
+                </div>
+                <div class="layout-design">Layout Design</div>
+                <div class="sales-website-design5">Sales website design</div>
+                <div class="column-header7">
+                  <div class="april-8-20247">May 5, 2024 5:00 - 6:00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          // Please sync "KPI Completion Progress" to the project
+        });
+      }
+      
+      var documentsContainer = document.getElementById("documentsContainer");
+      if (documentsContainer) {
+        documentsContainer.addEventListener("click", function (e) {
+          // Please sync "Calendar" to the project
+        });
+      }
+      
+      var historyText = document.getElementById("historyText");
+      if (historyText) {
+        historyText.addEventListener("click", function (e) {
+          // Please sync "Activities" to the project
+        });
+      }
+      
+      var bookmarksContainer = document.getElementById("bookmarksContainer");
+      if (bookmarksContainer) {
+        bookmarksContainer.addEventListener("click", function (e) {
+          // Please sync "Activities" to the project
+        });
+      }
+      
+      var messagesText = document.getElementById("messagesText");
+      if (messagesText) {
+        messagesText.addEventListener("click", function (e) {
+          // Please sync "Messages" to the project
+        });
+      }
+      
+      var settingsText = document.getElementById("settingsText");
+      if (settingsText) {
+        settingsText.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Setting";
+        });
+      }
+      
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          // Please sync "Setting" to the project
+        });
+      }
+      
+      var signOutText = document.getElementById("signOutText");
+      if (signOutText) {
+        signOutText.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Login";
+        });
+      }
+      
+      var cOCOBoldAddIcon = document.getElementById("cOCOBoldAddIcon");
+      if (cOCOBoldAddIcon) {
+        cOCOBoldAddIcon.addEventListener("click", function (e) {
+          // Please sync "KPI Completion Progress" to the project
+        });
+      }
+      
+      var component3mingcutearowToR = document.getElementById(
+        "component3mingcutearowToR"
+      );
+      if (component3mingcutearowToR) {
+        component3mingcutearowToR.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan";
+        });
+      }
+      
+      var text31 = document.getElementById("text31");
+      if (text31) {
+        text31.addEventListener("click", function (e) {
+          // Please sync "KPI Completion Progress" to the project
+        });
+      }
+      
+      var seeAllText = document.getElementById("seeAllText");
+      if (seeAllText) {
+        seeAllText.addEventListener("click", function (e) {
+          // Please sync "KPI Completion Progress" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

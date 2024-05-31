@@ -738,12 +738,12 @@
           <div class="end23">Design System Pet Care</div>
         </div>
       </div>
-      <img
+      <img id="CreateCalendar"
         class="component-10-icon"
         loading="lazy"
         alt=""
         src="/images/Calendar/component-10.svg"
-        style="margin-left: 78px"
+        style="margin-left: 78px; cursor:pointer;"
       />
 
       <div class="left-bar-calendar">
@@ -951,6 +951,13 @@
       if (documentsContainer) {
         documentsContainer.addEventListener("click", function (e) {
           // Please sync "Calendar" to the project
+        });
+      }
+
+      var CreateCalendarText = document.getElementById("CreateCalendar");
+      if (CreateCalendarText) {
+        CreateCalendarText.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Calendar/Create";
         });
       }
       </script>
