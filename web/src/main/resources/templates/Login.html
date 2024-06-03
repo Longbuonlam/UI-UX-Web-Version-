@@ -1,192 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link rel="stylesheet" href="/css/loginglobal.css" />
-    <link rel="stylesheet" href="/css/loginindex.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Avenir:wght@400&display=swap"
-    />
-  </head>
-  <body>
-    <div class="login">
-      <header class="header-nav">
-        <div class="links">
-          <div class="home">Home</div>
-          <div class="web-designs">Web designs</div>
-          <div class="mobile-designs">Mobile designs</div>
-          <div class="illustrations">Illustrations</div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/css/loginStyles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="login-container">
+  <header class="header">
+    <img src="/images/public/group-1.svg" alt="KPI Edu Logo" class="logo">
+    <div class="language-selector">English (United States)</div>
+  </header>
+  <main class="login-form">
+    <h1>Log in</h1>
+    <button class="social-button facebook" onclick="redirectToHome()">
+      <img src="/images/public/social-media-logo.svg" alt="Facebook Icon">
+      Continue with Facebook
+    </button>
+    <button class="social-button google" onclick="redirectToHome()">
+      <img src="/images/public/social-media-logo-1.svg" alt="Google Icon">
+      Continue with Google
+    </button>
+    <form action="/KPIEdu/Home" method="post">
+      <label for="email">Email address or user name</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email address or user name">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <div class="password-options">
+        <div class="remember-me">
+          <input type="checkbox" id="remember-me" name="remember-me">
+          <label for="remember-me">Remember me</label>
         </div>
-        <div class="frame-parent">
-          <img
-            class="frame-child"
-            loading="lazy"
-            alt=""
-            src="/images/public/group-1.svg"
-          />
-
-          <div class="kpi-edu-wrapper">
-            <a class="kpi-edu">
-              <span>KPI</span>
-              <span class="edu"> Edu</span>
-            </a>
-          </div>
-        </div>
-        <div class="button">
-          <div class="icons-parent">
-            <img class="icons" alt="" />
-
-            <div class="sign-up">Log in</div>
-          </div>
-        </div>
-        <div class="button1">
-          <div class="icons-group">
-            <img class="icons1" alt="" />
-
-            <div class="sign-up1">Sign up</div>
-          </div>
-        </div>
-        <div class="divider"></div>
-        <div class="header-nav-inner">
-          <div class="english-united-states-parent">
-            <a class="english-united-states">English (United States)</a>
-            <img class="icons2" alt="" src="/images/public/icons.svg" />
-          </div>
-        </div>
-      </header>
-      <main class="log-in">
-        <div class="log-in-child"></div>
-        <div class="password-hide-see">
-          <img class="icon" alt="" />
-
-          <div class="hide">Hide</div>
-        </div>
-        <div class="error-message">Error message</div>
-        <div class="error-message1">Error message</div>
-        <div class="frame-group">
-          <div class="log-in-wrapper">
-            <h1 class="log-in1">Log in</h1>
-          </div>
-          <div class="component-6">
-            <button class="social-media-signuplogin">
-              <div class="social-media-logo-parent">
-                <img
-                  class="social-media-logo"
-                  alt=""
-                  src="/images/public/social-media-logo.svg"
-                />
-
-                <div class="continue-with-facebook-wrapper">
-                  <div class="continue-with-facebook">
-                    Continue with Facebook
-                  </div>
-                </div>
-              </div>
-            </button>
-            <button class="social-media-signuplogin1">
-              <div class="social-media-logo-group">
-                <img
-                  class="social-media-logo1"
-                  alt=""
-                  src="/images/public/social-media-logo-1.svg"
-                />
-
-                <div class="continue-with-google">Continue with Google</div>
-              </div>
-            </button>
-          </div>
-          <div class="label-parent">
-            <div class="label">Email address or user name</div>
-            <div class="text-field">
-              <input
-                class="enter-your-email"
-                placeholder="Enter your email address or user name"
-                type="text"
-              />
-
-              <div class="text-field-child"></div>
-              <img class="icons3" alt="" />
-            </div>
-            <div class="label-group">
-              <div class="label1">Password</div>
-              <div class="text-field1">
-                <div class="inputs">
-                  <div class="div">123456</div>
-                  <div class="inputs-child"></div>
-                </div>
-                <img class="icons4" alt="" />
-
-                <div class="enter-your-password-wrapper">
-                  <input
-                          class="enter-your-email"
-                          placeholder="Enter your password"
-                          type="text"
-                  />
-                </div>
-                <div class="frame-container">
-                  <div class="icon-wrapper">
-                    <img class="icon1" alt="" src="/images/public/icon-1.svg" />
-                  </div>
-                  <div class="hide1">Hide</div>
-                </div>
-              </div>
-              <div class="forget-your-password-wrapper">
-                <u class="forget-your-password">Forget your password</u>
-              </div>
-              <div class="check-box-parent">
-                <input class="check-box" type="checkbox" />
-
-                <div class="i-want-to">Remember me</div>
-              </div>
-            </div>
-          </div>
-          <div class="button-wrapper">
-            <button class="button2" onclick="redirectToHome()">
-              <img class="icons5" alt="" />
-
-              <div class="log-in2">Log in</div>
-            </button>
-          </div>
-          <div class="divider1">
-            <div class="divider2"></div>
-            <div class="or">OR</div>
-            <div class="divider3"></div>
-          </div>
-        </div>
-        <div class="log-in-item"></div>
-        <div class="frame-div">
-          <div class="dont-have-an-account-wrapper">
-            <h3 class="dont-have-an">Don’t have an account?</h3>
-          </div>
-          <button class="button3" onclick="redirectToSignUp()">
-            <div class="icons-container">
-              <img class="icons6" alt="" />
-
-              <div class="sign-up2">Sign up</div>
-            </div>
-          </button>
-        </div>
-      </main>
+        <a href="#" class="forgot-password" onclick="redirectToForgotPassword()">Forget your password</a>
+      </div>
+      <button type="submit" class="login-button" onclick="redirectToHome()">Log in</button>
+    </form>
+    <div class="signup-link">
+      Don’t have an account? <a href="#" onclick="redirectToSignUp()">Sign up</a>
     </div>
-    <script>
-      function redirectToHome() {
-        window.location.href = "/KPIEdu/Home";
-      }
+  </main>
+</div>
+<script>
+  function redirectToHome() {
+    window.location.href = "/KPIEdu/Home";
+  }
 
-      function redirectToSignUp() {
-        window.location.href = "/KPIEdu/SignUp";
-      }
-    </script>
-  </body>
+  function redirectToForgotPassword() {
+    window.location.href = "/KPIEdu/ForgotPassword";
+  }
+
+  function redirectToSignUp() {
+    window.location.href = "/KPIEdu/SignUp";
+  }
+</script>
+</body>
 </html>
