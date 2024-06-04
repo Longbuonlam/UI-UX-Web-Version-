@@ -2,10 +2,11 @@ package ui_ux.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class ProjectController {
-    @GetMapping("/KPIEdu/Home")
+    @PostMapping("/KPIEdu/Home")
     public String Dashboard(){
         return "Dashboard";
     }

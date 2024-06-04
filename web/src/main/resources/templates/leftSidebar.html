@@ -1,45 +1,55 @@
-<!-- leftSidebar.html -->
-<div class="left-bar-home" id="leftSidebar">
-    <div class="logo">
-        <img class="logo-child" alt="KPI Edu Logo" src="/images/public/group-1.svg" />
-        <b class="kpi-edu"><span>KPI</span><span class="edu"> Edu</span></b>
-    </div>
-    <div class="home">
-        <div class="home-item">
-            <img class="iconlyboldhome" alt="Home" src="/images/public/iconlyboldhome.svg" />
-            <b class="home1">Home</b>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Left Sidebar</title>
+</head>
+<body>
+<div th:fragment="leftSidebar">
+    <div class="left-bar-home" id="leftSidebar">
+        <div class="logo">
+            <img class="logo-child" alt="KPI Edu Logo" src="/images/public/group-1.svg" />
+            <b class="kpi-edu"><span>KPI</span><span class="edu"> Edu</span></b>
         </div>
-    </div>
-    <div class="plan">
-        <img class="iconlylight-outline3-user" alt="Plan" src="/images/public/iconlylight-outline3-user.svg" />
-        <b class="plan1">Plan</b>
-    </div>
-    <div class="kpi">
-        <img class="carbonsummary-kpi-icon" alt="KPI" src="/images/public/carbonsummarykpi.svg" />
-        <b class="kpi1">KPI</b>
-    </div>
-    <div class="calendar">
-        <img class="group-icon" alt="Calendar" src="/images/public/group.svg" />
-        <b class="calendar1">Calendar</b>
-    </div>
-    <div class="history">
-        <img class="vector-icon" alt="History" src="/images/public/vector.svg" />
-        <b class="history1">History</b>
-    </div>
-    <div class="messages">
-        <img class="iconlylight-outlinechat" alt="Messages" src="/images/public/iconlylight-outlinechat.svg" />
-        <b class="messages1">Messages</b>
-        <div class="ellipse-parent">
-            <div class="group-child"></div>
-            <b class="b1">4</b>
+        <div class="home">
+            <div class="home-item">
+                <img class="iconlyboldhome" alt="Home" src="/images/public/iconlyboldhome.svg" />
+                <b class="home1">Home</b>
+            </div>
         </div>
-    </div>
-    <div class="settings">
-        <img class="iconlylight-outlinesetting" alt="Settings" src="/images/public/iconlylight-outlinesetting.svg" />
-        <b class="settings1">Settings</b>
-    </div>
-    <div class="sign-out">
-        <img class="iconlylight-outlinelogout" alt="Sign Out" src="/images/public/iconlylight-outlinelogout@2x.png" />
-        <b class="sign-out1">Sign Out</b>
+        <div class="plan">
+            <img class="iconlylight-outline3-user" alt="Plan" src="/images/public/iconlylight-outline3-user.svg" />
+            <b class="plan1">Plan</b>
+        </div>
+        <div class="kpi">
+            <img class="carbonsummary-kpi-icon" alt="KPI" src="/images/public/carbonsummarykpi.svg" />
+            <b class="kpi1">KPI</b>
+        </div>
+        <div class="calendar">
+            <img class="group-icon" alt="Calendar" src="/images/public/group.svg" />
+            <b class="calendar1">Calendar</b>
+        </div>
+        <div class="history">
+            <img class="vector-icon" alt="History" src="/images/public/vector.svg" />
+            <b class="history1">History</b>
+        </div>
+        <div class="messages">
+            <img class="iconlylight-outlinechat" alt="Messages" src="/images/public/iconlylight-outlinechat.svg" />
+            <b class="messages1">Messages</b>
+            <div class="ellipse-parent">
+                <div class="group-child"></div>
+                <b class="b1">4</b>
+            </div>
+        </div>
+        <div class="settings">
+            <img class="iconlylight-outlinesetting" alt="Settings" src="/images/public/iconlylight-outlinesetting.svg" />
+            <b class="settings1">Settings</b>
+        </div>
+        <div class="sign-out">
+            <img class="iconlylight-outlinelogout" alt="Sign Out" src="/images/public/iconlylight-outlinelogout@2x.png" />
+            <b class="sign-out1">Sign Out</b>
+        </div>
     </div>
 </div>
+</body>
+</html>
