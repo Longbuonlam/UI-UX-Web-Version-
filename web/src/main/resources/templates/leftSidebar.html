@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Left Sidebar</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="../../../../../../../../../Media/Downloads/locofy-html-css-project/leftSidebarGlobal.css" />
+  <link rel="stylesheet" href="../../../../../../../../../Media/Downloads/locofy-html-css-project/leftSidebarIndex.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+  />
 </head>
 <body>
-<div th:fragment="leftSidebar">
-    <div class="left-bar-home" id="leftSidebar">
+  <div class="left-bar-home-parent">
+    <section class="left-bar-home">
+      <div class="logo-wrapper">
         <div class="logo">
-            <img class="logo-child" alt="KPI Edu Logo" src="/images/public/group-1.svg" />
-            <b class="kpi-edu"><span>KPI</span><span class="edu"> Edu</span></b>
+          <img class="logo-child" loading="lazy" alt="" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/group-1.svg" />
+          <div class="kpi-edu-wrapper">
+            <a class="kpi-edu">
+              <span>KPI</span>
+              <span class="edu"> Edu</span>
+            </a>
+          </div>
         </div>
-        <div class="home">
-            <div class="home-item">
-                <img class="iconlyboldhome" alt="Home" src="/images/public/iconlyboldhome.svg" />
-                <b class="home1">Home</b>
-            </div>
+      </div>
+      <div class="menu-items">
+        <div class="menu-item home">
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/iconlyboldhome.svg" alt="Home" />
+          <a>Home</a>
         </div>
-        <div class="plan">
-            <img class="iconlylight-outline3-user" alt="Plan" src="/images/public/iconlylight-outline3-user.svg" />
-            <b class="plan1">Plan</b>
+        <div class="menu-item plan">
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/iconlylight-outline3-user.svg" alt="Plan" />
+          <a>Plan</a>
         </div>
-        <div class="kpi">
-            <img class="carbonsummary-kpi-icon" alt="KPI" src="/images/public/carbonsummarykpi.svg" />
-            <b class="kpi1">KPI</b>
+        <div class="menu-item kpi">
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/carbonsummarykpi.svg" alt="KPI" />
+          <a>KPI</a>
         </div>
-        <div class="calendar">
-            <img class="group-icon" alt="Calendar" src="/images/public/group.svg" />
-            <b class="calendar1">Calendar</b>
+        <div class="menu-item calendar">
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/group.svg" alt="Calendar" />
+          <a>Calendar</a>
         </div>
-        <div class="history">
-            <img class="vector-icon" alt="History" src="/images/public/vector.svg" />
-            <b class="history1">History</b>
+        <div class="menu-item history">
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/vector.svg" alt="History" />
+          <a>History</a>
         </div>
-        <div class="messages">
-            <img class="iconlylight-outlinechat" alt="Messages" src="/images/public/iconlylight-outlinechat.svg" />
-            <b class="messages1">Messages</b>
-            <div class="ellipse-parent">
-                <div class="group-child"></div>
-                <b class="b1">4</b>
-            </div>
+        <div class="menu-item messages">
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/iconlylight-outlinechat.svg" alt="Messages" />
+          <a>Messages</a>
+          <div class="notification-count">4</div>
         </div>
-        <div class="settings">
-            <img class="iconlylight-outlinesetting" alt="Settings" src="/images/public/iconlylight-outlinesetting.svg" />
-            <b class="settings1">Settings</b>
+        <div class="menu-item settings">
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/iconlylight-outlinesetting.svg" alt="Settings" />
+          <a>Settings</a>
         </div>
+      </div>
+      <div class="sign-out-wrapper">
         <div class="sign-out">
-            <img class="iconlylight-outlinelogout" alt="Sign Out" src="/images/public/iconlylight-outlinelogout@2x.png" />
-            <b class="sign-out1">Sign Out</b>
+          <img class="icon" src="../../../../../../../../../Media/Downloads/locofy-html-css-project/public/iconlylight-outlinelogout@2x.png" alt="Sign Out" />
+          <a>Sign Out</a>
         </div>
-    </div>
-</div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
