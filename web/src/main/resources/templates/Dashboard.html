@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
   <style>
+    body {
+      background-color: black; /* Set the background color to black */
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+    }
     /* Fixed left sidebar */
     #leftSidebar {
       width: 250px;
@@ -19,97 +24,9 @@
       background-color: #f8f9fa; /* Adjust background color as needed */
       padding: 20px;
     }
-    /* Main content */
-    #mainContent {
-      margin-left: 250px; /* Width of left sidebar */
-      padding: 20px;
-    }
   </style>
 </head>
 <body>
 <div th:replace="~{leftSidebar :: leftSidebar}"></div>
-<div id="mainContent">
-  <div class="search">
-    <div class="search-child"></div>
-    <div class="search-task-documents-activi-parent">
-      <div class="search-task-documents">Search Task, Documents, Activities...</div>
-      <img class="iconlylight-outlinesearch" alt="" src="/images/public/iconlylight-outlinesearch.svg" />
-    </div>
-  </div>
-  <div class="welcome">
-    <div class="welcome-child"></div>
-    <img class="cool-kids-avatar" alt="Avatar" src="/images/public/cool-kids-avatar@2x.png" />
-    <img class="humaaans-space-icon" alt="Humaaans" src="/images/public/humaaans-space@2x.png" />
-    <div class="youve-learned-70-container">
-      <p class="youve-learned-70-of-your-go">
-        <span class="youve-learned">You’ve learned </span><b class="b">70% </b><span> of your goal this week!</span>
-      </p>
-      <p class="keep-it-up">Keep it up and improve your progress.</p>
-    </div>
-    <div class="welcome-back-soict-parent">
-      <b class="welcome-back-soict">Welcome back, SOICT</b>
-      <img class="image-296-icon" alt="Image" src="/images/public/image-296@2x.png" />
-    </div>
-  </div>
-  <div class="frame-parent">
-    <div class="rectangle-group">
-      <div class="frame-child"></div>
-      <b class="not-started">Not Started</b>
-      <b class="task">6 Task</b>
-      <img class="ictwotone-not-started-icon" alt="Not Started" src="/images/public/ictwotonenotstarted.svg" />
-    </div>
-    <div class="rectangle-container">
-      <div class="frame-item"></div>
-      <b class="in-progress">In Progress</b>
-      <b class="task1">6 Task</b>
-      <img class="carbonin-progress-icon" alt="In Progress" src="/images/public/carboninprogress.svg" />
-    </div>
-    <div class="frame-div">
-      <div class="frame-inner"></div>
-      <b class="done">Done</b>
-      <b class="task2">6 Task</b>
-      <img class="lets-iconsdone-ring-round" alt="Done" src="/images/public/letsiconsdoneringround.svg" />
-    </div>
-    <div class="rectangle-parent1">
-      <div class="rectangle-div"></div>
-      <b class="over-due">Overdue</b>
-      <b class="task3">6 Task</b>
-      <img class="group-icon2" alt="Overdue" src="/images/public/group2.svg" />
-    </div>
-  </div>
-  <div class="line-parent">
-    <div class="line-div"></div>
-    <div class="frame-child1"></div>
-    <div class="frame-child2"></div>
-    <div class="frame-child3"></div>
-    <div class="frame-child4"></div>
-    <div class="frame-child5"></div>
-    <div class="frame-child6"></div>
-    <div class="frame-child7"></div>
-    <img class="line-icon" alt="Line" src="/images/public/line-22.svg" />
-    <img class="frame-child8" alt="Line" src="/images/public/line-22.svg" />
-    <img class="rectangle-icon" alt="Rectangle" src="/images/public/rectangle-2509.svg" />
-    <img class="frame-child9" alt="Rectangle" src="/images/public/rectangle-2510.svg" />
-    <img class="frame-child10" alt="Rectangle" src="/images/public/rectangle-2513.svg" />
-    <img class="frame-child11" alt="Rectangle" src="/images/public/rectangle-2514.svg" />
-    <img class="frame-child12" alt="Rectangle" src="/images/public/rectangle-2517.svg" />
-    <img class="frame-child13" alt="Rectangle" src="/images/public/rectangle-2518.svg" />
-    <img class="frame-child14" alt="Rectangle" src="/images/public/rectangle-2519.svg" />
-    <img class="frame-child15" alt="Rectangle" src="/images/public/rectangle-2520.svg" />
-    <img class="frame-child16" alt="Rectangle" src="/images/public/rectangle-2521.svg" />
-    <img class="frame-child17" alt="Rectangle" src="/images/public/rectangle-2522.svg" />
-    <img class="frame-child18" alt="Rectangle" src="/images/public/rectangle-2523.svg" />
-    <img class="frame-child19" alt="Rectangle" src="/images/public/rectangle-2524.svg" />
-    <img class="frame-child20" alt="Rectangle" src="/images/public/rectangle-2525.svg" />
-    <img class="frame-child21" alt="Rectangle" src="/images/public/rectangle-2526.svg" />
-  </div>
-  <div class="plan-processing-parent">
-    <b class="plan-processing">Plan Processing</b>
-    <div class="group-parent">
-      <img class="group-item" alt="Progress" src="/images/public/group-19.svg" />
-      <b class="b3">50%</b>
-    </div>
-  </div>
-</div>
 </body>
 </html>
