@@ -1,115 +1,278 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, width=device-width" />
-  <link rel="stylesheet" href="/css/dashboardglobal.css" />
-  <link rel="stylesheet" href="/css/dashboardindex.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+
+  <link rel="stylesheet" href="/css/planglobal.css" />
+  <link rel="stylesheet" href="/css/planindex.css" />
+
+  <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+  />
+  <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Open Sans:wght@600;700&display=swap"
+  />
+
   <style>
-    /* Fixed left sidebar */
-    #leftSidebar {
-      width: 250px;
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      background-color: #f8f9fa; /* Adjust background color as needed */
-      padding: 20px;
+    .custom-section {
+      /*margin: 20px;*/
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      text-align: center;
+      width: 80%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the div */
     }
-    /* Main content */
-    #mainContent {
-      margin-left: 250px; /* Width of left sidebar */
-      padding: 20px;
+    .frame-section {
+      display: flex;
+      /*justify-content: center;*/
+      align-items: center;
+      height: fit-content; /* Adjust height as needed */
+      padding-top: 10px;
     }
+    .percentage-text {
+      position: absolute;
+      top: 35%;
+      left: 33%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      color: #000;
+      font-weight: bold;
+    }
+
   </style>
 </head>
 <body>
-<div th:replace="~{leftSidebar :: leftSidebar}"></div>
-<div id="mainContent">
-  <div class="search">
-    <div class="search-child"></div>
-    <div class="search-task-documents-activi-parent">
-      <div class="search-task-documents">Search Task, Documents, Activities...</div>
-      <img class="iconlylight-outlinesearch" alt="" src="/images/public/iconlylight-outlinesearch.svg" />
+<div class="kpi-completion-progress">
+  <div class="kpi-completion-progress-child"></div>
+  <div class="left-bar-plan">
+    <div class="left-bar-plan-child"></div>
+    <div class="logo-wrapper">
+      <div class="logo">
+        <img class="logo-child" loading="lazy" alt="" src="/images/Plan/group-1.svg" />
+        <div class="kpi-edu-wrapper">
+          <a class="kpi-edu">
+            <span>KPI</span>
+            <span class="edu"> Edu</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="frame-parent">
+      <div class="home-parent">
+        <div class="home">
+          <div class="home-inner">
+            <div class="iconlyboldhome-parent">
+              <img class="iconlyboldhome" loading="lazy" alt="" src="/images/Plan/iconlyboldhome.svg" />
+              <a class="home1" id="ToHome" style="cursor:pointer;">Home</a>
+            </div>
+          </div>
+          <div class="rectangle-parent">
+            <div class="frame-child"></div>
+            <div class="iconlylight-outline3-user-wrapper">
+              <img class="iconlylight-outline3-user" loading="lazy" alt="" src="/images/Plan/iconlylight-outline3-user.svg" />
+            </div>
+          </div>
+          <div class="home-child"></div>
+        </div>
+        <div class="classes">
+          <div class="classes-wrapper" id="groupContainer">
+            <div class="classes1">
+              <b class="kpi">Plan</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-wrapper">
+        <div class="documents-parent">
+          <div class="documents" id="documentsContainer">
+            <img class="carbonsummary-kpi-icon" loading="lazy" alt="" src="/images/Plan/carbonsummarykpi.svg" />
+            <b class="kpi1" id="ToKPI">KPI</b>
+          </div>
+          <div class="documents-wrapper">
+            <div class="documents1" id="documentsContainer">
+              <div class="group-wrapper">
+                <img class="group-icon" alt="" src="/images/Plan/group.svg" />
+              </div>
+              <b class="calendar" id="toCalendarText">Calendar</b>
+            </div>
+          </div>
+          <div class="frame-container">
+            <div class="bookmarks-parent">
+              <div class="bookmarks" id="bookmarksContainer">
+                <div class="material-symbolshistory"></div>
+                <b class="activity-history" id="activityHistoryText">Activity History</b>
+                <img class="vector-icon" loading="lazy" alt="" src="/images/Plan/vector.svg" />
+              </div>
+              <div class="iconlylight-outlinechat-parent">
+                <img class="iconlylight-outlinechat" loading="lazy" alt="" src="/images/Plan/iconlylight-outlinechat.svg" />
+                <b class="messages" id="messagesText">Messages</b>
+              </div>
+            </div>
+          </div>
+          <div class="settings-wrapper">
+            <div class="settings" id="settingsContainer">
+              <div class="iconlylight-outlinesetting-wrapper">
+                <img class="iconlylight-outlinesetting" loading="lazy" alt="" src="/images/Plan/iconlylight-outlinesetting.svg" />
+              </div>
+              <b class="settings1" id="settingsText">Settings</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sign-out-wrapper">
+      <div class="sign-out">
+        <div class="iconlylight-outlinelogout-wrapper">
+          <img class="iconlylight-outlinelogout" loading="lazy" alt="" src="/images/Plan/iconlylight-outlinelogout@2x.png" />
+        </div>
+        <b class="sign-out1" id="signOutText">Sign Out</b>
+      </div>
     </div>
   </div>
-  <div class="welcome">
-    <div class="welcome-child"></div>
-    <img class="cool-kids-avatar" alt="Avatar" src="/images/public/cool-kids-avatar@2x.png" />
-    <img class="humaaans-space-icon" alt="Humaaans" src="/images/public/humaaans-space@2x.png" />
-    <div class="youve-learned-70-container">
-      <p class="youve-learned-70-of-your-go">
-        <span class="youve-learned">You’ve learned </span><b class="b">70% </b><span> of your goal this week!</span>
-      </p>
-      <p class="keep-it-up">Keep it up and improve your progress.</p>
+  <section class="frame-section">
+    <div class="frame-group">
+      <div class="search-parent">
+        <div class="search">
+          <div class="search-child"></div>
+          <img class="iconlylight-outlinesearch" alt="" src="/images/Plan/iconlylight-outlinesearch.svg" />
+          <div class="search-task-documents-activi-wrapper">
+            <div class="search-task-documents">
+              Search Task, Documents, Activities...
+            </div>
+          </div>
+        </div>
+        <div class="toggle-wrapper">
+          <img class="toggle-icon" loading="lazy" alt="" src="/images/Plan/toggle.svg" />
+        </div>
+      </div>
     </div>
-    <div class="welcome-back-soict-parent">
-      <b class="welcome-back-soict">Welcome back, SOICT</b>
-      <img class="image-296-icon" alt="Image" src="/images/public/image-296@2x.png" />
+    <div class="frame-group">
+      <div class="chart-container" style="width: 350px; height: 350px;">
+        <h1>Plan Processing</h1>
+        <canvas id="progressChart" width="312" height="312" style="display: block; box-sizing: border-box; "></canvas>
+        <div class="percentage-text ">50%</div>
+      </div>
+
+<!--      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
+<!--      <script src="/js/piechart.js"></script>-->
     </div>
-  </div>
-  <div class="frame-parent">
-    <div class="rectangle-group">
-      <div class="frame-child"></div>
-      <b class="not-started">Not Started</b>
-      <b class="task">6 Task</b>
-      <img class="ictwotone-not-started-icon" alt="Not Started" src="/images/public/ictwotonenotstarted.svg" />
+      <div class="frame-group">
+        <div class="chart-container-2">
+          <canvas id="myChart" ></canvas>
+        </div>
     </div>
-    <div class="rectangle-container">
-      <div class="frame-item"></div>
-      <b class="in-progress">In Progress</b>
-      <b class="task1">6 Task</b>
-      <img class="carbonin-progress-icon" alt="In Progress" src="/images/public/carboninprogress.svg" />
-    </div>
-    <div class="frame-div">
-      <div class="frame-inner"></div>
-      <b class="done">Done</b>
-      <b class="task2">6 Task</b>
-      <img class="lets-iconsdone-ring-round" alt="Done" src="/images/public/letsiconsdoneringround.svg" />
-    </div>
-    <div class="rectangle-parent1">
-      <div class="rectangle-div"></div>
-      <b class="over-due">Overdue</b>
-      <b class="task3">6 Task</b>
-      <img class="group-icon2" alt="Overdue" src="/images/public/group2.svg" />
-    </div>
-  </div>
-  <div class="line-parent">
-    <div class="line-div"></div>
-    <div class="frame-child1"></div>
-    <div class="frame-child2"></div>
-    <div class="frame-child3"></div>
-    <div class="frame-child4"></div>
-    <div class="frame-child5"></div>
-    <div class="frame-child6"></div>
-    <div class="frame-child7"></div>
-    <img class="line-icon" alt="Line" src="/images/public/line-22.svg" />
-    <img class="frame-child8" alt="Line" src="/images/public/line-22.svg" />
-    <img class="rectangle-icon" alt="Rectangle" src="/images/public/rectangle-2509.svg" />
-    <img class="frame-child9" alt="Rectangle" src="/images/public/rectangle-2510.svg" />
-    <img class="frame-child10" alt="Rectangle" src="/images/public/rectangle-2513.svg" />
-    <img class="frame-child11" alt="Rectangle" src="/images/public/rectangle-2514.svg" />
-    <img class="frame-child12" alt="Rectangle" src="/images/public/rectangle-2517.svg" />
-    <img class="frame-child13" alt="Rectangle" src="/images/public/rectangle-2518.svg" />
-    <img class="frame-child14" alt="Rectangle" src="/images/public/rectangle-2519.svg" />
-    <img class="frame-child15" alt="Rectangle" src="/images/public/rectangle-2520.svg" />
-    <img class="frame-child16" alt="Rectangle" src="/images/public/rectangle-2521.svg" />
-    <img class="frame-child17" alt="Rectangle" src="/images/public/rectangle-2522.svg" />
-    <img class="frame-child18" alt="Rectangle" src="/images/public/rectangle-2523.svg" />
-    <img class="frame-child19" alt="Rectangle" src="/images/public/rectangle-2524.svg" />
-    <img class="frame-child20" alt="Rectangle" src="/images/public/rectangle-2525.svg" />
-    <img class="frame-child21" alt="Rectangle" src="/images/public/rectangle-2526.svg" />
-  </div>
-  <div class="plan-processing-parent">
-    <b class="plan-processing">Plan Processing</b>
-    <div class="group-parent">
-      <img class="group-item" alt="Progress" src="/images/public/group-19.svg" />
-      <b class="b3">50%</b>
-    </div>
-  </div>
+
+
+  </section>
+
+
+  <img id="ToCalendar"
+       class="component-7-icon"
+       loading="lazy"
+       alt=""
+       src="/images/Plan/component-7.svg"
+       style="cursor:pointer;"
+  />
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/js/piechart.js"></script>
+<script src="/js/chart.js"></script>
+<script>
+  var groupContainer = document.getElementById("groupContainer");
+  if (groupContainer) {
+    groupContainer.addEventListener("click", function (e) {
+      window.location.href = "k-p-i-completion-progress.html";
+    });
+  }
+
+  var documentsContainer = document.getElementById("documentsContainer");
+  if (documentsContainer) {
+    documentsContainer.addEventListener("click", function (e) {
+      // Please sync "Calendar" to the project
+    });
+  }
+
+  var CreatePlan = document.getElementById("CreatePlan");
+  if (CreatePlan) {
+    CreatePlan.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/Plan/Create";
+    });
+  }
+
+  var ToHomeText = document.getElementById("ToHome");
+  if (ToHomeText) {
+    ToHomeText.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/Home";
+    });
+  }
+
+  var ToKPIText = document.getElementById("ToKPI");
+  if (ToKPIText) {
+    ToKPIText.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/KPI";
+    });
+  }
+
+  var activityHistoryText = document.getElementById("activityHistoryText");
+  if (activityHistoryText) {
+    activityHistoryText.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/History";
+    });
+  }
+
+  var bookmarksContainer = document.getElementById("bookmarksContainer");
+  if (bookmarksContainer) {
+    bookmarksContainer.addEventListener("click", function (e) {
+      // Please sync "Activities" to the project
+    });
+  }
+
+  var messagesText = document.getElementById("messagesText");
+  if (messagesText) {
+    messagesText.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/Message";
+    });
+  }
+
+  var settingsText = document.getElementById("settingsText");
+  if (settingsText) {
+    settingsText.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/Setting";
+    });
+  }
+
+  var settingsContainer = document.getElementById("settingsContainer");
+  if (settingsContainer) {
+    settingsContainer.addEventListener("click", function (e) {
+      // Please sync "Setting" to the project
+    });
+  }
+
+  var signOutText = document.getElementById("signOutText");
+  if (signOutText) {
+    signOutText.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/Login";
+    });
+  }
+
+  var cOCOBoldAddIcon = document.getElementById("cOCOBoldAddIcon");
+  if (cOCOBoldAddIcon) {
+    cOCOBoldAddIcon.addEventListener("click", function (e) {
+      // Please sync "KPI Completion Progress" to the project
+    });
+  }
+
+  var toCalendarText = document.getElementById("ToCalendar");
+  if (toCalendarText) {
+    toCalendarText.addEventListener("click", function (e) {
+      window.location.href = "/KPIEdu/Plan/Calendar";
+    });
+  }
+</script>
 </body>
 </html>

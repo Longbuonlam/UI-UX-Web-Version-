@@ -1048,6 +1048,8 @@
   flex-direction: column;
   gap: var(--gap-50xl);
   max-width: 100%;
+  padding: 20px;
+  height: auto;
 }
 .frame-section,
 .left-bar-plan-parent {
@@ -1085,7 +1087,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 195px;
+  gap: 35px;
   line-height: normal;
   letter-spacing: normal;
 }
@@ -1278,4 +1280,62 @@
   .kpi-completion-progress {
     gap: 49px;
   }
+  .data-parent {
+    width: 697px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl) 0 0;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .chart-container {
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as necessary */
+    background-color: #fff;
+    border-radius: 20px; /* Rounded corners */
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  .percentage-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+  }
+  .chart-container-2 {
+    width: 90%; /* Adjust width for a wider x-axis */
+    height: 60vh; /* Adjust height as necessary */
+    margin: auto;
+    /*padding-top: 50px;*/
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  canvas {
+    display: block;
+    margin: auto;
+  }
+
 }
