@@ -41,4 +41,8 @@ public class ProjectController {
         return "Setting";
     }
 
+    @GetMapping("/KPIEdu/Dashboard1")
+    public String Dashboard1(){
+        return "Dashboard1";
+    }
 }
