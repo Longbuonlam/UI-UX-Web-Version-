@@ -45,4 +45,25 @@ public class ProjectController {
     public String Dashboard1(){
         return "Dashboard1";
     }
+
+    @GetMapping("/KPIEdu/ResetPw")
+    public String ResetPw(){
+        return "ResetPw";
+    }
+
+    @GetMapping("/KPIEdu/ResetPwEnterCode")
+    public String ResetPwEnterCode(){
+        return "ResetPwEnterCode";
+    }
+
+    @GetMapping("/KPIEdu/ResetPwNewPw")
+    public String ResetPwNewPw(){
+        return "ResetPwNewPw";
+    }
+    
+    @GetMapping("/KPIEdu/activities1")
+    public String activities1(){
+        return "activities1";
+    }
 }
+
