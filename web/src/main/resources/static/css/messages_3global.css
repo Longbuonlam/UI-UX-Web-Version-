@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --body-sans-serif-desktop-default-body-s-default1: "DM Sans";
+  --body-sans-serif-desktop-default-body-s-default: "Roboto Flex";
+  --ui-14-regular: Inter;
+  --font-open-sans: "Open Sans";
+  --font-ubuntu: Ubuntu;
+
+  /* font sizes */
+  --body-sans-serif-desktop-default-body-xs-default-size: 12px;
+  --body-sans-serif-desktop-default-body-s-default-size: 14px;
+  --body-sans-serif-desktop-default-body-m-default-size: 16px;
+  --heading-sans-serif-desktop-default-heading-l-default-size: 28px;
+  --font-size-smi: 13px;
+  --font-size-xl: 20px;
+  --font-size-mini: 15px;
+  --font-size-base-5: 16.5px;
+  --font-size-3xl-7: 22.7px;
+  --font-size-base-6: 15.6px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-aliceblue-100: #f0f7ff;
+  --accent-on-accent: #e9f4fa;
+  --theme-colors-ui-contrast: #fff;
+  --theme-colors-border-2: #e5e5e5;
+  --color-gainsboro-100: #dcdcdc;
+  --color-gray-100: #8a8a8a;
+  --theme-colors-text-hint: #808080;
+  --gray-900: #171c26;
+  --component-specific-button-primary: #121f24;
+  --theme-colors-field-1: #191919;
+  --theme-colors-icon-inverse: #0a0a0a;
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --interactive-colors-focus-secondary: rgba(26, 26, 26, 0.05);
+  --theme-colors-border-11: rgba(255, 255, 255, 0.05);
+  --gray-100: #f4f4f5;
+  --theme-colors-text-1: #f4f4f4;
+  --color-whitesmoke-100: #eee;
+  --theme-colors-text-inverse: #ededed;
+  --color-whitesmoke-200: #e9e9e9;
+  --theme-colors-text-error: #f9634c;
+  --interactive-colors-focus-primary: rgba(122, 161, 0, 0.15);
+  --theme-colors-text-placeholder: #6e6e6e;
+  --light-secondary: #666;
+  --theme-colors-text-2: #4e4e4e;
+  --system-colors-success-1: #1aad63;
+  --accent-accent: #068ac2;
+  --color-royalblue: #0077ff;
+  --black: #000;
+  --color-seagreen: rgba(77, 158, 111, 0.73);
+  --color-skyblue: #67e3ff;
+  --theme-colors-border-1: #3d3d3d;
+  --light-primary: #333;
+  --color-gold: #ffd600;
+  --color-dodgerblue: #5285f2;
+  --color-orange: #ff9900;
+  --color-indianred: #e55858;
+  --color-silver: #bdbdbd;
+  --theme-colors-text-21: #a3a3a3;
+  --indigo-600: #4f46e5;
+
+  /* Spacing */
+  --container-container-padding: 24px;
+  --container-container-padding-sm: 16px;
+  --radius-sm: 16px;
+  --radius-xs: 12px;
+  --spacing-spacing-sm: 6px;
+  --widths-width-md: 560px;
+  --radius-full: 640px;
+  --spacing-spacing-xl: 16px;
+  --spacing-spacing-lg: 12px;
+  --spacing-spacing-md: 8px;
+  --spacing-spacing-4xl: 32px;
+  --radius-2xl: 48px;
+  --spacing-spacing-xs: 4px;
+  --boundvariablesdata: 32px;
+  --boundvariablesdata1: 24px;
+  --radius-md: 24px;
+  --widths-width-lg: 640px;
+  --spacing-spacing-3xl: 24px;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-11xs: 2px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-7xs: 6px;
+  --gap-6xl: 25px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-7xs: 6px;
+  --padding-11xs: 2px;
+  --padding-sm: 14px;
+  --padding-12xs: 1px;
+  --padding-3xs: 10px;
+  --padding-13xl: 32px;
+  --padding-9xs: 4px;
+  --padding-31xl: 50px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-xs: 12px;
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+  --br-621xl: 640px;
+  --br-181xl: 200px;
+  --br-3xs: 10px;
+  --br-29xl: 48px;
+  --br-5xl: 24px;
+  --br-31xl: 50px;
+  --br-6xs: 7px;
+  --br-11xl: 30px;
+
+  /* Effects */
+  --md: 0px 4px 8px -2px rgba(0, 0, 0, 0.3),
+    0px 2px 4px -2px rgba(0, 0, 0, 0.06);
+  --shadow-base: 0px 1px 2px rgba(0, 0, 0, 0.07);
+}

@@ -1,0 +1,965 @@
+.messages-child,
+.search-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue);
+  width: 1440px;
+  height: 1024px;
+}
+.search-child {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 438px;
+  height: 50px;
+}
+.search-task-documents {
+  position: absolute;
+  top: 2px;
+  left: 34px;
+  font-weight: 600;
+}
+.iconlylight-outlinesearch {
+  position: absolute;
+  height: 100%;
+  width: 8.05%;
+  top: 0;
+  right: 91.95%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.search,
+.search-task-documents-activi-parent {
+  position: absolute;
+  top: 13px;
+  left: 37px;
+  width: 298px;
+  height: 24.5px;
+}
+.search {
+  top: 43px;
+  left: 292px;
+  width: 438px;
+  height: 50px;
+  font-size: 15px;
+}
+.messages-item,
+.toggle-icon {
+  position: absolute;
+  top: 53px;
+  left: 842px;
+  width: 127px;
+  height: 29.8px;
+}
+.messages-item {
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: var(--color-white);
+  width: 722px;
+  height: 755px;
+}
+.messages2 {
+  position: absolute;
+  top: 29px;
+  left: 56px;
+  font-size: 36px;
+  display: inline-block;
+  color: var(--color-darkslategray);
+  width: 185px;
+  height: 40px;
+}
+.line-icon,
+.messages-child1,
+.messages-child2,
+.messages-inner {
+  position: absolute;
+  top: 103.29px;
+  left: 47.74px;
+  max-height: 100%;
+  width: 593.3px;
+}
+.line-icon,
+.messages-child1,
+.messages-child2 {
+  top: 258.31px;
+}
+.messages-child1,
+.messages-child2 {
+  top: 417.33px;
+}
+.messages-child2 {
+  top: 557px;
+  left: 48px;
+}
+.pm {
+  position: absolute;
+  top: 0;
+  left: 500.98px;
+  font-weight: 600;
+  display: inline-block;
+  width: 72.5px;
+  height: 23.1px;
+}
+.dear-soict-i {
+  margin: 0;
+}
+.dear-soict-i-container,
+.lionel-messi {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.dear-soict-i-container {
+  top: 41.2px;
+  font-weight: 600;
+  width: 410.3px;
+  height: 46.1px;
+}
+.lionel-messi {
+  top: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  width: 153.3px;
+  height: 33px;
+}
+.dear-soict-i-just-submited-my-parent {
+  position: absolute;
+  top: 0;
+  left: 102.17px;
+  width: 410.3px;
+  height: 87.3px;
+  font-size: var(--font-size-smi);
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #16d03b;
+  width: 82.4px;
+  height: 82.4px;
+}
+.lm {
+  position: absolute;
+  top: 25.3px;
+  left: 25.73px;
+  display: inline-block;
+  width: 40px;
+  height: 33px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 82.4px;
+  height: 82.4px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.group-item,
+.josh {
+  position: absolute;
+  top: 444.7px;
+  left: 59.27px;
+  width: 573.5px;
+  height: 87.3px;
+}
+.group-item {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #ff1d86;
+  width: 82.4px;
+  height: 82.4px;
+}
+.can-you-check,
+.eh {
+  position: absolute;
+  top: 24.92px;
+  left: 26.73px;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+}
+.can-you-check {
+  top: 37.9px;
+  left: 0;
+  font-weight: 600;
+  width: 421.9px;
+  height: 23.1px;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+  width: 135.1px;
+  height: 36.3px;
+}
+.image-jpg {
+  position: absolute;
+  top: 0;
+  left: 28.02px;
+  display: inline-block;
+  width: 85.7px;
+  height: 23.1px;
+}
+.iconlylight-outlineimage-2 {
+  position: absolute;
+  height: 92.64%;
+  width: 18.82%;
+  top: 7.13%;
+  right: 81.18%;
+  bottom: 0.23%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image-jpg-parent {
+  position: absolute;
+  top: 6.59px;
+  left: 9.89px;
+  width: 113.7px;
+  height: 23.1px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 135.1px;
+  height: 36.3px;
+}
+.iconlylight-outlinedocument {
+  position: absolute;
+  height: 92.64%;
+  width: 20.62%;
+  top: 7.13%;
+  right: 79.38%;
+  bottom: 0.23%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.form-jpg {
+  position: absolute;
+  top: 0;
+  left: 26.37px;
+  display: inline-block;
+  width: 77.5px;
+  height: 23.1px;
+}
+.iconlylight-outlinedocument-parent {
+  position: absolute;
+  height: 63.64%;
+  width: 76.83%;
+  top: 18.16%;
+  right: 10.97%;
+  bottom: 18.2%;
+  left: 12.2%;
+}
+.group-child1,
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 145.02px;
+  width: 135.1px;
+  height: 36.3px;
+}
+.group-child1 {
+  left: 0;
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+  width: 146.7px;
+}
+.image-2-icon {
+  position: absolute;
+  height: 92.64%;
+  width: 17.09%;
+  top: 7.13%;
+  right: 82.91%;
+  bottom: 0.23%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image-2-jpg {
+  position: absolute;
+  top: 0;
+  left: 26.37px;
+  display: inline-block;
+  width: 98.9px;
+  height: 23.1px;
+}
+.image-2-parent {
+  position: absolute;
+  height: 63.64%;
+  width: 85.34%;
+  top: 18.16%;
+  right: 6.79%;
+  bottom: 18.2%;
+  left: 7.86%;
+}
+.eden-hazard,
+.group-parent,
+.rectangle-container {
+  position: absolute;
+  top: 0;
+  left: 290.04px;
+  width: 146.7px;
+  height: 36.3px;
+}
+.eden-hazard,
+.group-parent {
+  top: 69.21px;
+  left: 0;
+  width: 436.7px;
+  color: var(--color-royalblue);
+}
+.eden-hazard {
+  top: 0;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  color: var(--color-darkslategray);
+  width: 154.9px;
+  height: 33px;
+}
+.can-you-check-out-the-formulas-parent {
+  position: absolute;
+  top: 4.94px;
+  left: 102.17px;
+  width: 436.7px;
+  height: 105.5px;
+  font-size: var(--font-size-smi);
+}
+.olawuyi {
+  position: absolute;
+  top: 279.08px;
+  left: 59.27px;
+  width: 581.7px;
+  height: 110.4px;
+}
+.am,
+.ellipse-div {
+  position: absolute;
+  top: 0;
+}
+.am {
+  left: 509.22px;
+  font-weight: 600;
+  display: inline-block;
+  width: 72.5px;
+  height: 23.1px;
+}
+.ellipse-div {
+  left: 0;
+  border-radius: 50%;
+  background-color: #ff7e3e;
+  width: 82.4px;
+  height: 82.4px;
+}
+.lm1 {
+  top: 23.94px;
+  left: 24.73px;
+  width: 38px;
+  height: 33px;
+}
+.hi-i-just,
+.lm1,
+.luka-modri {
+  position: absolute;
+  display: inline-block;
+}
+.luka-modri {
+  top: 0;
+  left: 0.45px;
+  font-size: var(--font-size-xl);
+  width: 153.3px;
+  height: 33px;
+}
+.hi-i-just {
+  top: 40.94px;
+  left: 0;
+  font-weight: 600;
+  color: var(--color-gray-100);
+  width: 399px;
+  height: 23px;
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+  width: 285.1px;
+  height: 36.3px;
+}
+.iconlylight-outlinedocument1 {
+  position: absolute;
+  height: 99.58%;
+  width: 8.38%;
+  top: 0.67%;
+  right: 91.62%;
+  bottom: -0.25%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.first-chapter-of {
+  position: absolute;
+  top: 0;
+  left: 26.37px;
+  display: inline-block;
+  width: 229.1px;
+  height: 23.1px;
+}
+.iconlylight-outlinedocument-group {
+  position: absolute;
+  height: 65.01%;
+  width: 89.58%;
+  top: 18.16%;
+  right: 5.22%;
+  bottom: 16.83%;
+  left: 5.2%;
+}
+.group-div {
+  position: absolute;
+  top: 72.51px;
+  left: 0.45px;
+  width: 285.1px;
+  height: 36.3px;
+  color: var(--color-royalblue);
+}
+.luka-modri-parent,
+.mayowa {
+  position: absolute;
+  height: 108.8px;
+}
+.luka-modri-parent {
+  top: 0;
+  left: 101.73px;
+  width: 399px;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray);
+}
+.mayowa {
+  top: 124.06px;
+  left: 59.27px;
+  width: 581.7px;
+  cursor: pointer;
+}
+.clear-all {
+  position: absolute;
+  top: 43px;
+  left: 542px;
+  font-size: var(--font-size-xl);
+  color: var(--color-royalblue);
+  text-align: center;
+}
+.avatar-item-icon {
+  position: absolute;
+  top: 586px;
+  left: 63px;
+  border-radius: var(--radius-full);
+  width: 77px;
+  height: 73px;
+  object-fit: cover;
+}
+.messages1 {
+  position: absolute;
+  top: 171px;
+  left: 460px;
+  width: 722px;
+  height: 755px;
+}
+.scroll-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: #eee;
+  height: 593px;
+}
+.scroll,
+.scroll-child,
+.scroll-item {
+  position: absolute;
+  width: 10.3px;
+}
+.scroll-item {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-royalblue);
+  height: 198.5px;
+}
+.scroll {
+  top: 267px;
+  left: 1144px;
+  height: 593px;
+}
+.icon-trash-bin,
+.icon-trash-bin1,
+.icon-trash-bin2 {
+  position: absolute;
+  height: 1.94%;
+  width: 1.38%;
+  top: 32.71%;
+  right: 24.03%;
+  bottom: 65.34%;
+  left: 74.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-trash-bin1,
+.icon-trash-bin2 {
+  top: 47.66%;
+  bottom: 50.4%;
+}
+.icon-trash-bin2 {
+  top: 63.38%;
+  bottom: 34.68%;
+}
+.pm2 {
+  top: 0;
+  left: 475.26px;
+  font-weight: 600;
+  width: 72.5px;
+  height: 23.1px;
+}
+.hi-soict-im-container,
+.pm2,
+.soict {
+  position: absolute;
+  display: inline-block;
+}
+.hi-soict-im-container {
+  top: 41.2px;
+  left: 0.17px;
+  font-weight: 600;
+  width: 410.3px;
+  height: 46.1px;
+}
+.soict {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  width: 249px;
+  height: 33px;
+}
+.hi-soict-im-doing-my-uiux-ex-parent {
+  position: absolute;
+  top: 0;
+  left: 76.27px;
+  width: 410.5px;
+  height: 87.3px;
+  font-size: var(--font-size-smi);
+}
+.icon-trash-bin3,
+.josh1 {
+  position: absolute;
+  top: 757px;
+  left: 544.73px;
+  width: 547.8px;
+  height: 87.3px;
+}
+.icon-trash-bin3 {
+  height: 1.94%;
+  width: 1.38%;
+  top: 77.18%;
+  right: 24.05%;
+  bottom: 20.88%;
+  left: 74.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instance-child {
+  border-radius: 0 var(--br-11xl) var(--br-11xl) 0;
+  background-color: var(--color-white);
+}
+.instance-child,
+.left-barmessages-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.calendar1,
+.group-icon {
+  position: absolute;
+  top: 0;
+  left: 29.69%;
+}
+.group-icon {
+  height: 91.85%;
+  width: 19.3%;
+  top: 3.7%;
+  right: 80.7%;
+  bottom: 4.44%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.calendar,
+.calendar-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 128px;
+  height: 27px;
+}
+.calendar {
+  top: 455px;
+  left: 71px;
+  cursor: pointer;
+}
+.home1,
+.iconlyboldhome {
+  position: absolute;
+  top: 0;
+  left: 39.39%;
+}
+.iconlyboldhome {
+  height: 97.41%;
+  width: 25.25%;
+  right: 74.75%;
+  bottom: 2.59%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home {
+  position: absolute;
+  height: 2.64%;
+  width: 36.67%;
+  top: 21.19%;
+  right: 37.04%;
+  bottom: 76.17%;
+  left: 26.3%;
+  cursor: pointer;
+}
+.bookmarks,
+.history1,
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.history1 {
+  width: 100%;
+  left: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.bookmarks,
+.vector-icon {
+  bottom: 0;
+}
+.bookmarks {
+  width: 66.96%;
+  right: 0;
+  left: 33.04%;
+  cursor: pointer;
+}
+.vector-icon {
+  width: 24.35%;
+  right: 75.65%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.history {
+  position: absolute;
+  top: 528px;
+  left: 71px;
+  width: 115px;
+  height: 27px;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-aliceblue);
+}
+.frame-item {
+  width: 2.22%;
+  right: 97.78%;
+  background-color: var(--color-royalblue);
+}
+.messages4 {
+  position: absolute;
+  top: 26.23%;
+  left: 40.37%;
+  cursor: pointer;
+}
+.iconlylight-outlinechat {
+  position: absolute;
+  height: 44.26%;
+  width: 10%;
+  top: 26.23%;
+  right: 63.7%;
+  bottom: 29.51%;
+  left: 26.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.b,
+.group-child3 {
+  position: absolute;
+  top: 0;
+}
+.group-child3 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-royalblue);
+}
+.b {
+  height: 95.45%;
+  width: 42.27%;
+  left: 27.27%;
+  display: inline-block;
+}
+.ellipse-parent1 {
+  position: absolute;
+  height: 36.07%;
+  width: 8.15%;
+  top: 31.15%;
+  right: 11.48%;
+  bottom: 32.79%;
+  left: 80.37%;
+  font-size: 15.56px;
+  color: var(--color-white);
+}
+.messages3,
+.settings1 {
+  position: absolute;
+  cursor: pointer;
+}
+.messages3 {
+  height: 5.96%;
+  width: 100%;
+  top: 56.93%;
+  right: 0;
+  bottom: 37.11%;
+  left: 0;
+  color: var(--color-royalblue);
+}
+.settings1 {
+  top: 0;
+  left: 31.93%;
+}
+.iconlylight-outlinesetting {
+  position: absolute;
+  height: 95.56%;
+  width: 20.17%;
+  top: 3.7%;
+  right: 79.83%;
+  bottom: 0.74%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.settings,
+.sign-out1 {
+  position: absolute;
+  cursor: pointer;
+}
+.settings {
+  height: 2.64%;
+  width: 44.07%;
+  top: 65.53%;
+  right: 29.63%;
+  bottom: 31.84%;
+  left: 26.3%;
+}
+.sign-out1 {
+  top: 0;
+  left: 28.57%;
+}
+.iconlylight-outlinelogout {
+  position: absolute;
+  height: 86.67%;
+  width: 20.17%;
+  top: 7.41%;
+  right: 79.83%;
+  bottom: 5.93%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sign-out {
+  position: absolute;
+  height: 2.64%;
+  width: 44.07%;
+  top: 91.99%;
+  right: 28.15%;
+  bottom: 5.37%;
+  left: 27.78%;
+  color: var(--color-indianred);
+}
+.logo-child {
+  position: absolute;
+  height: 100%;
+  width: 31.12%;
+  top: 0;
+  right: 68.88%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.edu {
+  color: var(--color-dodgerblue);
+}
+.kpi-edu,
+.logo {
+  position: absolute;
+}
+.kpi-edu {
+  height: 72.22%;
+  width: 62.24%;
+  top: 16.67%;
+  left: 37.78%;
+  display: inline-block;
+}
+.logo {
+  height: 3.52%;
+  width: 49.63%;
+  top: 4.1%;
+  right: 25.19%;
+  bottom: 92.38%;
+  left: 25.19%;
+  font-size: 22.66px;
+  color: var(--color-orange);
+  font-family: var(--font-ubuntu);
+}
+.classes-wrapper,
+.kpi {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.classes-wrapper {
+  height: 100%;
+  width: 54.22%;
+  right: 0;
+  bottom: 0;
+  left: 45.78%;
+  cursor: pointer;
+}
+.iconlylight-outline3-user {
+  position: absolute;
+  height: 84.81%;
+  width: 30.72%;
+  top: 11.11%;
+  right: 69.28%;
+  bottom: 4.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-container,
+.plan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 83px;
+  height: 27px;
+}
+.plan {
+  top: 306px;
+  left: 71px;
+  cursor: pointer;
+}
+.carbonsummary-kpi-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.kpi1 {
+  position: absolute;
+  top: 0;
+  left: 38px;
+}
+.carbonsummary-kpi-parent,
+.documents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 71px;
+  height: 32px;
+}
+.documents {
+  top: 378px;
+  left: 71px;
+  cursor: pointer;
+}
+.left-barmessages,
+.left-barmessages-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 1024px;
+}
+.left-barmessages-wrapper {
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+}
+.component-15-icon {
+  position: absolute;
+  top: 0;
+  left: 1371px;
+  width: 69px;
+  height: 1024px;
+}
+.messages {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-open-sans);
+}

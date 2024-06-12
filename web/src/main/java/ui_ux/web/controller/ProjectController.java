@@ -65,5 +65,46 @@ public class ProjectController {
     public String activities1(){
         return "activities1";
     }
+    @GetMapping("/KPIEdu/kpi_expand_sidebar_scroll_2")
+    public String kpi_expand_sidebar_scroll_2(){
+        return "kpi_expand_sidebar_scroll_2";
+    }
+    @GetMapping("/KPIEdu/kpi_expand_sidebar_scroll_3")
+    public String kpi_expand_sidebar_scroll_3(){
+        return "kpi_expand_sidebar_scroll_3";
+    }
+    @GetMapping("/KPIEdu/messages_1")
+    public String messages_1(){
+        return "messages_1";
+    }
+    @GetMapping("/KPIEdu/messages_2")
+    public String messages_2(){
+        return "messages_2";
+    }
+    @GetMapping("/KPIEdu/messages_3")
+    public String messages_3(){
+        return "messages_3";
+    }
+    @GetMapping("/KPIEdu/messages_4")
+    public String messages_4(){
+        return "messages_4";
+    }
+    @GetMapping("/KPIEdu/setting1")
+    public String setting1(){
+        return "setting1";
+    }
+    @GetMapping("/KPIEdu/setting2")
+    public String setting2(){
+        return "setting2";
+    }
+    @GetMapping("/KPIEdu/setting3")
+    public String setting3(){
+        return "setting3";
+    }
+    @GetMapping("/KPIEdu/setting4")
+    public String setting4(){
+        return "setting4";
+    }
 }
+
 
