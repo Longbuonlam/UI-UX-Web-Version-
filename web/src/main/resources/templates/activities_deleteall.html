@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/css/activities_deleteallglobal.css" />
+    <link rel="stylesheet" href="/css/activities_deleteallindex.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Avenir:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="activitiesdelete-all">
+      <div class="search">
+        <div class="search-child"></div>
+        <div class="search-task-documents-activi-parent">
+          <div class="search-task-documents">
+            Search Task, Documents, Activities...
+          </div>
+          <img
+            class="iconlylight-outlinesearch"
+            alt=""
+            src="/images/activities_deleteall/iconlylight-outlinesearch.svg"
+          />
+        </div>
+      </div>
+      <img class="toggle-icon" alt="" src="/images/activities_deleteall/toggle.svg" />
+
+      <div class="activitiesdelete-all-child"></div>
+      <img
+        class="swm-icon-pack-trash2"
+        alt=""
+        src="/images/activities_deleteall/swm-icon-pack--trash2.svg"
+      />
+
+      <div class="activities">
+        <b class="history" id="historyText">History</b>
+        <div class="scroll">
+          <div class="scroll-child"></div>
+          <div class="scroll-item"></div>
+        </div>
+      </div>
+      <img
+        class="icon-circle-tick"
+        alt=""
+        src="/images/activities_deleteall/-icon-circle-tick.svg"
+      />
+
+      <b class="delete-all">Delete all</b>
+      <div class="divider">
+        <div class="divider1"></div>
+        <div class="or">OR</div>
+        <div class="divider2"></div>
+      </div>
+      <div class="you-havent-any-container">
+        <span class="you-havent-any-container1">
+          <p class="you-havent-any">You haven't any history yet.</p>
+        </span>
+      </div>
+      <div class="left-barhistory-wrapper">
+        <div class="left-barhistory">
+          <div class="left-barhistory-inner">
+            <div class="instance-child"></div>
+          </div>
+          <div class="calendar" id="calendarContainer">
+            <div class="calendar-parent">
+              <b class="calendar1">Calendar</b>
+              <img class="group-icon" alt="" src="/images/activities_deleteall/group.svg" />
+            </div>
+          </div>
+          <div class="home" id="homeContainer">
+            <div class="left-barhistory-inner">
+              <b class="home1">Home</b>
+              <img
+                class="iconlyboldhome"
+                alt=""
+                src="/images/activities_deleteall/iconlyboldhome.svg"
+              />
+            </div>
+          </div>
+          <div class="history1">
+            <div class="rectangle-parent">
+              <div class="frame-child"></div>
+              <div class="frame-item"></div>
+            </div>
+            <div class="bookmarks" id="bookmarksContainer">
+              <b class="history2" id="historyText">History</b>
+            </div>
+            <img class="vector-icon" alt="" src="/images/activities_deleteall/vector.svg" />
+          </div>
+          <div class="messages" id="messagesContainer">
+            <b class="messages1" id="messagesText">Messages</b>
+            <img
+              class="iconlylight-outlinechat"
+              alt=""
+              src="/images/activities_deleteall/iconlylight-outlinechat.svg"
+            />
+
+            <div class="ellipse-parent">
+              <div class="group-child"></div>
+              <b class="b">4</b>
+            </div>
+          </div>
+          <div class="settings" id="settingsContainer">
+            <b class="settings1" id="settingsText">Settings</b>
+            <img
+              class="iconlylight-outlinesetting"
+              alt=""
+              src="/images/activities_deleteall/iconlylight-outlinesetting.svg"
+            />
+          </div>
+          <div class="sign-out">
+            <b class="sign-out1" id="signOutText">Sign Out</b>
+            <img
+              class="iconlylight-outlinelogout"
+              alt=""
+              src="/images/activities_deleteall/iconlylight-outlinelogout@2x.png"
+            />
+          </div>
+          <div class="logo">
+            <img class="logo-child" alt="" src="/images/activities_deleteall/group-1.svg" />
+
+            <b class="kpi-edu">
+              <span>KPI</span>
+              <span class="edu"> Edu</span>
+            </b>
+          </div>
+          <div class="plan" id="planContainer">
+            <div class="group-parent">
+              <div class="classes-wrapper" id="groupContainer">
+                <div class="left-barhistory-inner">
+                  <b class="kpi">Plan</b>
+                </div>
+              </div>
+              <img
+                class="iconlylight-outline3-user"
+                alt=""
+                src="/images/activities_deleteall/iconlylight-outline3-user.svg"
+              />
+            </div>
+          </div>
+          <div class="documents" id="documentsContainer">
+            <div class="carbonsummary-kpi-parent">
+              <img
+                class="carbonsummary-kpi-icon"
+                alt=""
+                src="/images/activities_deleteall/carbonsummarykpi.svg"
+              />
+
+              <b class="kpi1">KPI</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="component-15-icon" alt="" src="/images/activities_deleteall/component-15.svg" />
+    </div>
+
+    <script>
+      var historyText = document.getElementById("historyText");
+      if (historyText) {
+        historyText.addEventListener("click", function (e) {
+          // Please sync "Activities" to the project
+        });
+      }
+      
+      var calendarContainer = document.getElementById("calendarContainer");
+      if (calendarContainer) {
+        calendarContainer.addEventListener("click", function (e) {
+          // Please sync "Calendar" to the project
+        });
+      }
+      
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          // Please sync "Dashboard" to the project
+        });
+      }
+      
+      var bookmarksContainer = document.getElementById("bookmarksContainer");
+      if (bookmarksContainer) {
+        bookmarksContainer.addEventListener("click", function (e) {
+          // Please sync "Activities" to the project
+        });
+      }
+      
+      var messagesText = document.getElementById("messagesText");
+      if (messagesText) {
+        messagesText.addEventListener("click", function (e) {
+          // Please sync "Messages" to the project
+        });
+      }
+      
+      var messagesContainer = document.getElementById("messagesContainer");
+      if (messagesContainer) {
+        messagesContainer.addEventListener("click", function (e) {
+          // Please sync "Messages" to the project
+        });
+      }
+      
+      var settingsText = document.getElementById("settingsText");
+      if (settingsText) {
+        settingsText.addEventListener("click", function (e) {
+          // Please sync "Setting" to the project
+        });
+      }
+      
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          // Please sync "Setting" to the project
+        });
+      }
+      
+      var signOutText = document.getElementById("signOutText");
+      if (signOutText) {
+        signOutText.addEventListener("click", function (e) {
+          // Please sync "Login" to the project
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          // Please sync "Plan Processing 1" to the project
+        });
+      }
+      
+      var planContainer = document.getElementById("planContainer");
+      if (planContainer) {
+        planContainer.addEventListener("click", function (e) {
+          // Please sync "Plan Processing 1" to the project
+        });
+      }
+      
+      var documentsContainer = document.getElementById("documentsContainer");
+      if (documentsContainer) {
+        documentsContainer.addEventListener("click", function (e) {
+          // Please sync "KPI" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
