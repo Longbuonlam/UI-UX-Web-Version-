@@ -70,4 +70,8 @@ public class ProjectController {
     public String Plan_Details_2(){
         return "Plan Details 2";
     }
+    @GetMapping("/KPIEdu/Task List1")
+    public String Task_List_1(){
+        return "Task List1";
+    }
 }
