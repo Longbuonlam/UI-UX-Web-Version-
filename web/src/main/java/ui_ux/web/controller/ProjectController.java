@@ -54,4 +54,12 @@ public class ProjectController {
     public String Plan_Processing_createPlan(){
         return "Plan Processing- create plan";
     }
+    @GetMapping("/KPIEdu/Plan Processing 1")
+    public String Plan_Processing_1(){
+        return "Plan Processing 1";
+    }
+    @GetMapping("/KPIEdu/Plan Processing")
+    public String Plan_Processing(){
+        return "Plan Processing";
+    }
 }
