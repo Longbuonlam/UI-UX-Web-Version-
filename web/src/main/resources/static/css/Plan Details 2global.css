@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-ubuntu: Ubuntu;
+  --overline: Inter;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-3xl-7: 22.7px;
+  --font-size-base-6: 15.6px;
+  --font-size-6xs: 7px;
+  --font-size-3xs: 10px;
+  --font-size-mini: 15px;
+  --font-size-17xl: 36px;
+  --overline-size: 11px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-gray-100: #8a8a8a;
+  --color-gray-200: #828282;
+  --color-royalblue: #0077ff;
+  --color-aliceblue: #f0f7ff;
+  --color-dodgerblue: #5285f2;
+  --color-orange: #ff9900;
+  --color-indianred: #e55858;
+  --white: #fff;
+  --color-black: #000;
+  --color-gainsboro-100: #dfdfdf;
+  --color-gainsboro-200: #dcdcdc;
+  --gray-700: #464f60;
+  --color-darkslategray-100: #333;
+  --color-crimson: #eb2727;
+  --color-seagreen: rgba(77, 158, 111, 0.73);
+  --color-dimgray: rgba(102, 102, 102, 0.35);
+  --color-lightgray: #cacaca;
+  --black-03: #bfbfbf;
+  --color-silver-100: #bababa;
+
+  /* Paddings */
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+  --br-3xs: 10px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+}

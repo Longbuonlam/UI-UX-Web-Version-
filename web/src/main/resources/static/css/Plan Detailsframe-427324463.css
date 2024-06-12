@@ -1,0 +1,55 @@
+.kpi-management-software,
+.the-kpi-management {
+  position: absolute;
+  top: 30px;
+  left: 840px;
+  letter-spacing: -0.03em;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.the-kpi-management {
+  top: 74px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 709px;
+}
+.managing-plans {
+  margin: 0;
+}
+.go-to-the {
+  margin-bottom: 0;
+}
+.go-to-the-plans-page-click {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-base);
+}
+.managing-plans-creating-container {
+  position: absolute;
+  top: 125px;
+  left: 842px;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  width: 826px;
+  height: 797px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.kpi-management-software-user-g-parent {
+  width: 855px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  height: 922px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
