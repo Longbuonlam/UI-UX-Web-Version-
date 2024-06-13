@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-ubuntu: Ubuntu;
+  --font-poppins: Poppins;
+  --font-avenir: Avenir;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-3xl-7: 22.7px;
+  --font-size-base-6: 15.6px;
+
+  /* Colors */
+  --color-aliceblue: #f0f7ff;
+  --color-gray-100: #8a8a8a;
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --color-dodgerblue: #5285f2;
+  --color-orange: #ff9900;
+  --color-indianred: #e55858;
+  --color-white: #fff;
+  --color-royalblue: #0077ff;
+  --color-dimgray-100: rgba(102, 102, 102, 0.25);
+
+  /* Gaps */
+  --gap-4xl: 23px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+}

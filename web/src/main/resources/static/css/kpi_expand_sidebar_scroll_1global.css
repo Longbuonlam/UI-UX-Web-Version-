@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --m3-label-large: Roboto;
+  --font-open-sans: "Open Sans";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --m3-label-large-size: 14px;
+  --font-size-9xs: 4px;
+
+  /* Colors */
+  --background-paper-elevation-0: #fff;
+  --color-black: #000;
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --color-aliceblue: #f0f7ff;
+  --color-royalblue: #0077ff;
+  --schemes-primary: #006874;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+}

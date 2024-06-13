@@ -17,8 +17,8 @@ public class ProjectController {
     }
 
     @GetMapping("/KPIEdu/KPI")
-    public String KPI(){
-        return "KPI";
+    public String kpi(){
+        return "kpi";
     }
 
     @GetMapping("/KPIEdu/Calendar")
@@ -40,4 +40,45 @@ public class ProjectController {
     public String Setting(){
         return "Setting";
     }
+
+    @GetMapping("/KPIEdu/activities_expand_sidebar")
+    public String activities_expand_sidebar(){
+        return "activities_expand_sidebar";
+    }
+
+    @GetMapping("/KPIEdu/activities_deleteall")
+    public String activities_deleteall(){
+        return "activities_deleteall";
+    }
+
+    @GetMapping("/KPIEdu/activities_deleteall_expand_sidebar")
+    public String activities_deleteall_expand_sidebar(){
+        return "activities_deleteall_expand_sidebar";
+    }
+
+    @GetMapping("/KPIEdu/calendar")
+    public String calendar(){
+        return "calendar";
+    }
+
+    @GetMapping("/KPIEdu/calendar_3")
+    public String calendar_3(){
+        return "calendar_3";
+    }
+
+    @GetMapping("/KPIEdu/calendar_expand_sidebar")
+    public String calendar_expand_sidebar(){
+        return "calendar_expand_sidebar";
+    }
+
+    @GetMapping("/KPIEdu/kpi_expand_sidebar")
+    public String kpi_expand_sidebar(){
+        return "kpi_expand_sidebar";
+    }
+
+    @GetMapping("/KPIEdu/kpi_expand_sidebar_scroll_1")
+    public String kpi_expand_sidebar_scroll_1(){
+        return "kpi_expand_sidebar_scroll_1";
+    }
+
 }
