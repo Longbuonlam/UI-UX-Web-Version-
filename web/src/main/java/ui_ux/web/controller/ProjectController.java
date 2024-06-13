@@ -40,5 +40,10 @@ public class ProjectController {
     public String Setting(){
         return "Setting";
     }
-  
+
+    @GetMapping("/KPIEdu/Task List1")
+    public String Task_List_1(){
+        return "Task List1";
+    }
+
 }
