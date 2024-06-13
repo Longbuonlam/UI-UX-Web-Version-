@@ -322,11 +322,6 @@
               <div class="frame-child"></div>
               <div class="frame-item"></div>
             </div>
-            <img
-              class="carbonadd-filled-icon"
-              alt=""
-              src="/images/Plan Processing- create plan/carbonaddfilled.svg"
-            />
           </div>
           <div class="task-list-parent">
             <div class="task-list">Task list</div>
@@ -392,7 +387,6 @@
                   <img
                     class="current-day-icon"
                     alt=""
-                    src="/images/Plan Processing- create plan/current-day.svg"
                   />
 
                   <div class="div14" id="text3">9</div>
@@ -436,7 +430,7 @@
             <b class="my-calendar">My Calendar</b>
           </div>
         </div>
-        <div class="component-3profile-parent">
+        <div class="component-3profile-parent" id="ToCreatePlan">
           <div class="component-3profile">
             <div class="component-3profile-child"></div>
             <div class="allura-avatar-parent">
@@ -1165,6 +1159,13 @@
       if (documentsContainer) {
         documentsContainer.addEventListener("click", function (e) {
           // Please sync "KPI" to the project
+        });
+      }
+
+      var ToCreatePlan = document.getElementById("ToCreatePlan");
+      if (ToCreatePlan) {
+        ToCreatePlan.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan/Create";
         });
       }
       </script>

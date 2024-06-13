@@ -41,37 +41,9 @@ public class ProjectController {
         return "Setting";
     }
 
-    @GetMapping("/KPIEdu/Dashboard1")
-    public String Dashboard1(){
-        return "Dashboard1";
-    }
-
-    @GetMapping("/KPIEdu/Plan Processing- create plan 1")
-    public String Plan_Processing_createPlan_1(){
-        return "Plan Processing- create plan 1";
-    }
-    @GetMapping("/KPIEdu/Plan Processing- create plan")
-    public String Plan_Processing_createPlan(){
-        return "Plan Processing- create plan";
-    }
-    @GetMapping("/KPIEdu/Plan Processing 1")
-    public String Plan_Processing_1(){
-        return "Plan Processing 1";
-    }
-    @GetMapping("/KPIEdu/Plan Processing")
-    public String Plan_Processing(){
-        return "Plan Processing";
-    }
-    @GetMapping("/KPIEdu/Plan Details 1")
-    public String Plan_Details_1(){
-        return "Plan Details 1";
-    }
-    @GetMapping("/KPIEdu/Plan Details 2")
-    public String Plan_Details_2(){
-        return "Plan Details 2";
-    }
     @GetMapping("/KPIEdu/Task List1")
     public String Task_List_1(){
         return "Task List1";
     }
+
 }

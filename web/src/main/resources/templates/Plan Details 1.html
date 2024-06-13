@@ -43,6 +43,8 @@
             class="component-10-icon"
             alt=""
             src="/images/Plan Details 1/component-10.svg"
+            id="ToAddTask"
+            style="cursor:pointer;"
           />
 
           <div class="left-bar-plan"></div>
@@ -375,6 +377,21 @@
           // Please sync "Plan Details 2" to the project
         });
       }
+
+      var ToPlan = document.getElementById("swmIconPackArrowsmallleft");
+      if (ToPlan) {
+        ToPlan.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan";
+        });
+      }
+
+      var ToAddTask = document.getElementById("ToAddTask");
+      if (ToAddTask) {
+        ToAddTask.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan/AddTask";
+        });
+      }
+
       </script>
   </body>
 </html>
