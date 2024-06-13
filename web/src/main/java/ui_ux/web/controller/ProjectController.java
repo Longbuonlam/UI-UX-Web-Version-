@@ -71,14 +71,4 @@ public class ProjectController {
         return "calendar_expand_sidebar";
     }
 
-    @GetMapping("/KPIEdu/kpi_expand_sidebar")
-    public String kpi_expand_sidebar(){
-        return "kpi_expand_sidebar";
-    }
-
-    @GetMapping("/KPIEdu/kpi_expand_sidebar_scroll_1")
-    public String kpi_expand_sidebar_scroll_1(){
-        return "kpi_expand_sidebar_scroll_1";
-    }
-
 }
