@@ -647,6 +647,8 @@
         loading="lazy"
         alt=""
         src="/images/CreatePlan/component-7.svg"
+        id="ToProcessing"
+        style="cursor:pointer;"
       />
     </div>
 
@@ -718,6 +720,13 @@
           if (anchor) {
             anchor.scrollIntoView({ block: "start", behavior: "smooth" });
           }
+        });
+      }
+
+      var ToProcessing = document.getElementById("ToProcessing");
+      if (ToProcessing) {
+        ToProcessing.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan/Create/Processing";
         });
       }
       </script>
