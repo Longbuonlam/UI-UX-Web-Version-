@@ -14,4 +14,9 @@ public class PlanController {
     public String ViewCalendar(){
         return "PlanCalendar";
     }
+
+    @GetMapping("/KPIEdu/Plan/Create/Processing")
+    public String Plan_Processing_createPlan(){
+        return "Plan Processing- create plan";
+    }
 }
