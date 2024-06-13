@@ -452,7 +452,7 @@
                 <b class="b2">50%</b>
             </div>
         </div>
-        <div class="search-parent">
+        <div class="search-parent" id="BackToHome" style="cursor:pointer;">
             <div class="search">
                 <div class="search-child"></div>
                 <div class="search-task-documents-activi-parent">
@@ -903,6 +903,13 @@
     if (documentsContainer) {
         documentsContainer.addEventListener("click", function (e) {
             // Please sync "KPI" to the project
+        });
+    }
+
+    var ToHome = document.getElementById("BackToHome");
+    if (ToHome) {
+        ToHome.addEventListener("click", function (e) {
+            window.location.href = "/KPIEdu/Home";
         });
     }
 </script>

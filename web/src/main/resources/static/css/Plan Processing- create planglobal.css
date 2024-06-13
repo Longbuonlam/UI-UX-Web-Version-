@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-ubuntu: Ubuntu;
+  --ui-14-regular: Inter;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-3xl-7: 22.7px;
+  --font-size-base-6: 15.6px;
+  --font-size-smi: 13px;
+  --ui-14-regular-size: 14px;
+  --font-size-xs: 12px;
+  --font-size-mini: 15px;
+  --font-size-base-5: 16.5px;
+  --font-size-3xs: 10px;
+  --font-size-5xl: 24px;
+  --font-size-4xs: 9px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --white: #fff;
+  --color-gray-100: #8a8a8a;
+  --gray-900: #171c26;
+  --color-royalblue: #0077ff;
+  --color-aliceblue: #f0f7ff;
+  --color-dodgerblue: #5285f2;
+  --color-orange: #ff9900;
+  --color-indianred: #e55858;
+  --color-whitesmoke-100: #f4f4f4;
+  --color-whitesmoke-200: #eee;
+  --color-whitesmoke-300: #e9e9e9;
+  --black: #000;
+  --color-gainsboro-100: #dedcdc;
+  --color-gainsboro-200: #dcdcdc;
+  --color-seagreen: rgba(77, 158, 111, 0.73);
+  --color-skyblue: #67e3ff;
+  --light-primary: #333;
+  --color-gold-100: #ffd600;
+  --color-gold-200: #d0c916;
+  --light-secondary: #666;
+  --color-dimgray-100: rgba(102, 102, 102, 0.35);
+  --color-limegreen: #16d03b;
+  --black-03: #bfbfbf;
+  --color-silver-100: #bdbdbd;
+  --color-lightgray: #cacaca;
+
+  /* Gaps */
+  --gap-6xl: 25px;
+
+  /* Paddings */
+  --padding-31xl: 50px;
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-3xs: 10px;
+  --br-6xs: 7px;
+  --br-xs: 12px;
+}

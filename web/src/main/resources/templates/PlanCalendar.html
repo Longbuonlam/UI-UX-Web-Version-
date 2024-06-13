@@ -521,7 +521,7 @@
             </div>
           </div>
         </div>
-        <div class="frame-wrapper3">
+        <div class="frame-wrapper3" id="ToTaskList">
           <div class="frame-parent11">
             <div class="frame-wrapper4">
               <div class="this-week-parent">
@@ -715,6 +715,13 @@
       if (seeAllText) {
         seeAllText.addEventListener("click", function (e) {
           // Please sync "KPI Completion Progress" to the project
+        });
+      }
+
+      var ToTaskList = document.getElementById("ToTaskList");
+      if (ToTaskList) {
+        ToTaskList.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/TaskList";
         });
       }
       </script>

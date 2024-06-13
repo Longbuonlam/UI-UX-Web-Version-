@@ -16,7 +16,7 @@ public class ProjectController {
         return "Plan";
     }
 
-    @GetMapping("/KPIEdu/kpi")
+    @GetMapping("/KPIEdu/KPI")
     public String kpi(){
         return "kpi";
     }
@@ -39,11 +39,6 @@ public class ProjectController {
     @GetMapping("/KPIEdu/Setting")
     public String Setting(){
         return "Setting";
-    }
-
-    @GetMapping("/KPIEdu/Dashboard1")
-    public String Dashboard1(){
-        return "Dashboard1";
     }
 
     @GetMapping("/KPIEdu/activities_expand_sidebar")
@@ -85,4 +80,5 @@ public class ProjectController {
     public String kpi_expand_sidebar_scroll_1(){
         return "kpi_expand_sidebar_scroll_1";
     }
+
 }
