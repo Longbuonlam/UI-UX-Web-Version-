@@ -41,21 +41,4 @@ public class ProjectController {
         return "Setting";
     }
   
-    @GetMapping("/KPIEdu/Plan Processing 1")
-    public String Plan_Processing_1(){
-        return "Plan Processing 1";
-    }
-    @GetMapping("/KPIEdu/Plan Processing")
-    public String Plan_Processing(){
-        return "Plan Processing";
-    }
-    @GetMapping("/KPIEdu/Plan Details 1")
-    public String Plan_Details_1(){
-        return "Plan Details 1";
-    }
-    @GetMapping("/KPIEdu/Plan Details 2")
-    public String Plan_Details_2(){
-        return "Plan Details 2";
-    }
-  
 }

@@ -43,7 +43,7 @@
           </div>
           <img class="toggle-icon" alt="" src="/images/Plan Details 2/toggle.svg" />
 
-          <div class="instance-parent">
+          <div class="instance-parent" id="BackToViewDetail">
             <div class="group-parent">
               <img
                 class="instance-child"
@@ -664,6 +664,14 @@
           // Please sync "KPI" to the project
         });
       }
+
+      var BackToViewDetail = document.getElementById("BackToViewDetail");
+      if (BackToViewDetail) {
+        BackToViewDetail.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan/ViewDetail";
+        });
+      }
+
       </script>
   </body>
 </html>

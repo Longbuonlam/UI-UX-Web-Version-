@@ -198,7 +198,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="frame-div">
+                <div class="frame-div" id="ToViewDetail" style="cursor:pointer;">
                   <div class="frame-parent1">
                     <div class="frame-wrapper1">
                       <div class="frame-parent2">
@@ -425,6 +425,13 @@
       if (toCalendarText) {
         toCalendarText.addEventListener("click", function (e) {
           window.location.href = "/KPIEdu/Plan/Calendar";
+        });
+      }
+
+      var ToViewDetail = document.getElementById("ToViewDetail");
+      if (ToViewDetail) {
+        ToViewDetail.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan/ViewDetail";
         });
       }
       </script>
