@@ -7,34 +7,30 @@ body {
   /* fonts */
   --font-open-sans: "Open Sans";
   --font-ubuntu: Ubuntu;
-  --text-sm-medium: Inter;
+  --text-xs-medium: Inter;
 
   /* font sizes */
   --font-size-xl: 20px;
-  --font-size-3xl-7: 22.7px;
-  --font-size-base-6: 15.6px;
-  --text-xs-regular-size: 12px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --text-xs-medium-size: 12px;
   --font-size-3xl: 22px;
   --font-size-3xs: 10px;
   --text-sm-medium-size: 14px;
 
   /* Colors */
   --white: #fff;
-  --gray-50: #fafafa;
-  --color-gray-100: #8a8a8a;
-  --gray-900: #18181b;
-  --color-dodgerblue: #5285f2;
-  --color-orange: #ff9900;
-  --color-indianred: #e55858;
   --color-royalblue: #0077ff;
   --color-aliceblue-100: #f0f7ff;
   --blue-50: #eff6ff;
+  --gray-50: #fafafa;
+  --color-gray-100: #8a8a8a;
+  --gray-900: #18181b;
   --lightblue-500: #0ea5e9;
   --color-deepskyblue-100: rgba(14, 165, 233, 0.1);
   --lightblue-700: #0369a1;
   --violet-500: #8b5cf6;
   --color-mediumslateblue-100: rgba(139, 92, 246, 0.1);
-  --indigo-600: #4f46e5;
   --violet-700: #6d28d9;
   --emerald-500: #10b981;
   --emerald-700: #047857;
@@ -57,13 +53,8 @@ body {
   --padding-base: 16px;
 
   /* Border radiuses */
-  --br-11xl: 30px;
   --br-9xs: 4px;
   --br-81xl: 100px;
   --br-5xs: 8px;
   --br-7xs: 6px;
-  --br-31xl: 50px;
-
-  /* Effects */
-  --shadow-base: 0px 1px 2px rgba(0, 0, 0, 0.07);
 }
