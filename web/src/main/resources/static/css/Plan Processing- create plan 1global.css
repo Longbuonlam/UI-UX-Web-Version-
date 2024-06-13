@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-ubuntu: Ubuntu;
+  --font-inter: Inter;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-3xl-7: 22.7px;
+  --font-size-base-6: 15.6px;
+  --font-size-sm: 14px;
+  --font-size-3xs: 10px;
+  --font-size-5xl: 24px;
+  --font-size-4xs: 9px;
+  --font-size-2xs: 11px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --white: #fff;
+  --color-gray-100: #8a8a8a;
+  --gray-900: #171c26;
+  --color-royalblue: #0077ff;
+  --color-aliceblue: #f0f7ff;
+  --color-dodgerblue: #5285f2;
+  --color-orange: #ff9900;
+  --color-indianred: #e55858;
+  --color-limegreen: #16d03b;
+  --color-whitesmoke-100: #f4f4f4;
+  --color-gold: #d0c916;
+  --black: #000;
+  --color-gainsboro-100: #dedcdc;
+  --color-gainsboro-200: #dcdcdc;
+  --black-03: #bfbfbf;
+  --color-darkslategray: #333;
+  --color-dimgray: rgba(102, 102, 102, 0.35);
+  --color-lightgray: #cacaca;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-3xs: 10px;
+  --br-31xl: 50px;
+  --br-9xs: 4px;
+  --br-xs: 12px;
+}
