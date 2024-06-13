@@ -28,4 +28,8 @@ public class PlanController {
     public String Plan_Details_2(){
         return "Plan Details 2";
     }
+    @GetMapping("/KPIEdu/TaskList")
+    public String Task_List_1(){
+        return "Task List1";
+    }
 }

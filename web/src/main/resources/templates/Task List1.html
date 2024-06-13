@@ -33,7 +33,7 @@
       </div>
       <img class="toggle-icon" alt="" src="/images/Task List1/toggle.svg" />
 
-      <div class="completion-progress-parent">
+      <div class="completion-progress-parent" id="ToPlanCalendar">
         <div class="completion-progress">
           <div class="completion-progress-child"></div>
           <b class="task-list">Task list</b>
@@ -382,6 +382,13 @@
       if (documentsContainer) {
         documentsContainer.addEventListener("click", function (e) {
           // Please sync "KPI" to the project
+        });
+      }
+
+      var ToPlanCalendar = document.getElementById("ToPlanCalendar");
+      if (ToPlanCalendar) {
+        ToPlanCalendar.addEventListener("click", function (e) {
+          window.location.href = "/KPIEdu/Plan/Calendar";
         });
       }
       </script>
