@@ -40,4 +40,9 @@ public class ProjectController {
     public String Setting(){
         return "Setting";
     }
+
+    @GetMapping("/KPIEdu")
+    public String LandingPage(){
+        return "LandingPage";
+    }
 }

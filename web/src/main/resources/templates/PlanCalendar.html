@@ -642,14 +642,14 @@
       var documentsContainer = document.getElementById("documentsContainer");
       if (documentsContainer) {
         documentsContainer.addEventListener("click", function (e) {
-          // Please sync "Calendar" to the project
+          window.location.href = "/KPIEdu/KPI";
         });
       }
       
       var historyText = document.getElementById("historyText");
       if (historyText) {
         historyText.addEventListener("click", function (e) {
-          // Please sync "Activities" to the project
+          window.location.href = "/KPIEdu/History";
         });
       }
       
@@ -663,7 +663,7 @@
       var messagesText = document.getElementById("messagesText");
       if (messagesText) {
         messagesText.addEventListener("click", function (e) {
-          // Please sync "Messages" to the project
+          window.location.href = "/KPIEdu/Message";
         });
       }
       
@@ -691,7 +691,7 @@
       var cOCOBoldAddIcon = document.getElementById("cOCOBoldAddIcon");
       if (cOCOBoldAddIcon) {
         cOCOBoldAddIcon.addEventListener("click", function (e) {
-          // Please sync "KPI Completion Progress" to the project
+         window.location.href = "/KPIEdu/Plan/Create/Processing";
         });
       }
       
