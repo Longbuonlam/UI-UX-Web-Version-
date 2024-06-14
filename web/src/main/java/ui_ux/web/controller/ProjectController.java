@@ -38,7 +38,7 @@ public class ProjectController {
 
     @GetMapping("/KPIEdu/Setting")
     public String Setting(){
-        return "Setting";
+        return "SettingUpdate";
     }
 
     @GetMapping("/KPIEdu")
