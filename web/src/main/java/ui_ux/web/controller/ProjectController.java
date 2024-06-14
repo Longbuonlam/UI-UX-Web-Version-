@@ -18,7 +18,7 @@ public class ProjectController {
 
     @GetMapping("/KPIEdu/KPI")
     public String KPI(){
-        return "KPI";
+        return "KpiUpdate";
     }
 
     @GetMapping("/KPIEdu/Calendar")
